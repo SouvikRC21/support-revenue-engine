@@ -1,0 +1,12614 @@
+[
+ {
+  "id": "LU-001",
+  "client": "lumora",
+  "name": "Kingsmere Telecom",
+  "segment": "Growth",
+  "region": "LATAM",
+  "arr": 289000,
+  "archetype": "low_adoption",
+  "seats_licensed": 115,
+  "seats_active": 31,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting"
+  ],
+  "addons_licensed": [
+   "Conversational AI Bots"
+  ],
+  "tickets_monthly": [
+   23,
+   24,
+   25,
+   25,
+   22,
+   22
+  ],
+  "tickets_90d": 69,
+  "escalations_90d": 9,
+  "sev1_90d": 1,
+  "reopen_rate": 0.185,
+  "sentiment": 0.319,
+  "csat": 3.76,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.014,
+  "days_since_exec_touch": 50,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Advanced Insights": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Insights and Reporting": [
+    9,
+    10,
+    13,
+    7,
+    9,
+    6
+   ],
+   "Conversational AI Bots": [
+    0,
+    2,
+    1,
+    0,
+    0,
+    1
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    1,
+    2,
+    0,
+    0
+   ],
+   "Publishing": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   "Social Listening": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "Integrations and API": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.235,
+    "adoption": 0.897,
+    "voice": 0.107,
+    "disengagement": 0.083
+   },
+   "risk_score": 0.338,
+   "churn_probability": 0.464,
+   "band": "red",
+   "primary_driver": "adoption",
+   "arr_at_risk": 133998,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-002",
+  "client": "lumora",
+  "name": "Ironleaf Telecom",
+  "segment": "Strategic",
+  "region": "North America",
+  "arr": 285000,
+  "archetype": "unhappy_voice",
+  "seats_licensed": 114,
+  "seats_active": 73,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Publishing",
+   "Integrations and API",
+   "Care Console",
+   "Insights and Reporting"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   34,
+   35,
+   34,
+   32,
+   32,
+   30
+  ],
+  "tickets_90d": 94,
+  "escalations_90d": 5,
+  "sev1_90d": 1,
+  "reopen_rate": 0.0,
+  "sentiment": -0.191,
+  "csat": 3.26,
+  "churn_mentions_90d": 3,
+  "usage_trend": -0.055,
+  "days_since_exec_touch": 58,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Care Console": [
+    5,
+    3,
+    5,
+    6,
+    1,
+    3
+   ],
+   "Integrations and API": [
+    5,
+    4,
+    4,
+    4,
+    1,
+    7
+   ],
+   "Publishing": [
+    5,
+    2,
+    5,
+    2,
+    4,
+    2
+   ],
+   "Insights and Reporting": [
+    3,
+    2,
+    5,
+    1,
+    1,
+    3
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.132,
+    "voice": 0.584,
+    "disengagement": 0.175
+   },
+   "risk_score": 0.214,
+   "churn_probability": 0.164,
+   "band": "amber",
+   "primary_driver": "voice",
+   "arr_at_risk": 46631,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-003",
+  "client": "lumora",
+  "name": "Zephyrine Motors",
+  "segment": "Enterprise",
+  "region": "LATAM",
+  "arr": 294000,
+  "archetype": "escalation_hit",
+  "seats_licensed": 117,
+  "seats_active": 71,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Publishing",
+   "Insights and Reporting",
+   "Social Listening",
+   "Integrations and API"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   35,
+   33,
+   37,
+   55,
+   52,
+   48
+  ],
+  "tickets_90d": 155,
+  "escalations_90d": 34,
+  "sev1_90d": 4,
+  "reopen_rate": 0.465,
+  "sentiment": -0.252,
+  "csat": 3.53,
+  "churn_mentions_90d": 18,
+  "usage_trend": 0.015,
+  "days_since_exec_touch": 67,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Insights and Reporting": [
+    2,
+    4,
+    3,
+    4,
+    1,
+    3
+   ],
+   "Integrations and API": [
+    3,
+    2,
+    5,
+    1,
+    5,
+    3
+   ],
+   "Social Listening": [
+    3,
+    6,
+    2,
+    4,
+    3,
+    8
+   ],
+   "Publishing": [
+    4,
+    9,
+    4,
+    3,
+    2,
+    1
+   ],
+   "Conversational AI Bots": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+   ],
+   "Care Console": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.75,
+    "adoption": 0.172,
+    "voice": 0.628,
+    "disengagement": 0.112
+   },
+   "risk_score": 0.447,
+   "churn_probability": 0.762,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 224146,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-004",
+  "client": "lumora",
+  "name": "Larkspur Health",
+  "segment": "Strategic",
+  "region": "APAC",
+  "arr": 460000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 184,
+  "seats_active": 175,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Care Console",
+   "Publishing",
+   "Social Listening",
+   "Integrations and API",
+   "Insights and Reporting"
+  ],
+  "addons_licensed": [
+   "Conversational AI Bots"
+  ],
+  "tickets_monthly": [
+   27,
+   28,
+   31,
+   30,
+   32,
+   30
+  ],
+  "tickets_90d": 92,
+  "escalations_90d": 7,
+  "sev1_90d": 3,
+  "reopen_rate": 0.087,
+  "sentiment": 0.359,
+  "csat": 4.26,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.152,
+  "days_since_exec_touch": 37,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Social Listening": [
+    2,
+    2,
+    3,
+    4,
+    3,
+    3
+   ],
+   "Care Console": [
+    1,
+    6,
+    2,
+    2,
+    1,
+    3
+   ],
+   "Integrations and API": [
+    0,
+    2,
+    4,
+    3,
+    2,
+    1
+   ],
+   "Insights and Reporting": [
+    0,
+    3,
+    2,
+    1,
+    2,
+    3
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    7
+   ],
+   "Publishing": [
+    0,
+    0,
+    2,
+    1,
+    6,
+    3
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.013,
+    "adoption": 0.0,
+    "voice": 0.023,
+    "disengagement": 0.062
+   },
+   "risk_score": 0.022,
+   "churn_probability": 0.019,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 8818,
+   "expansion": {
+    "score": 1.0,
+    "seat_trigger": true,
+    "surges": [
+     {
+      "use_case": "Survey and VoC",
+      "last_month": 7,
+      "baseline": 1.3,
+      "ratio": 5.25
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 161000
+   },
+   "expansion_weighted": 47374
+  }
+ },
+ {
+  "id": "LU-005",
+  "client": "lumora",
+  "name": "Glenhaven Bank",
+  "segment": "Enterprise",
+  "region": "LATAM",
+  "arr": 292000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 116,
+  "seats_active": 107,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API",
+   "Publishing",
+   "Social Listening"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   26,
+   29,
+   24,
+   25,
+   24,
+   24
+  ],
+  "tickets_90d": 73,
+  "escalations_90d": 6,
+  "sev1_90d": 2,
+  "reopen_rate": 0.174,
+  "sentiment": 0.521,
+  "csat": 4.09,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.214,
+  "days_since_exec_touch": 41,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Integrations and API": [
+    5,
+    0,
+    4,
+    3,
+    3,
+    3
+   ],
+   "Care Console": [
+    1,
+    3,
+    2,
+    1,
+    0,
+    2
+   ],
+   "Conversational AI Bots": [
+    3,
+    1,
+    1,
+    2,
+    1,
+    2
+   ],
+   "Social Listening": [
+    1,
+    2,
+    3,
+    3,
+    2,
+    0
+   ],
+   "Insights and Reporting": [
+    2,
+    4,
+    4,
+    1,
+    2,
+    3
+   ],
+   "Publishing": [
+    0,
+    5,
+    1,
+    1,
+    3,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.027,
+    "adoption": 0.0,
+    "voice": 0.052,
+    "disengagement": 0.068
+   },
+   "risk_score": 0.035,
+   "churn_probability": 0.022,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 6491,
+   "expansion": {
+    "score": 0.5,
+    "seat_trigger": true,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 43800
+   },
+   "expansion_weighted": 12848
+  }
+ },
+ {
+  "id": "LU-006",
+  "client": "lumora",
+  "name": "Ember Foods",
+  "segment": "Growth",
+  "region": "EMEA",
+  "arr": 137000,
+  "archetype": "healthy",
+  "seats_licensed": 54,
+  "seats_active": 40,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Publishing",
+   "Care Console"
+  ],
+  "addons_licensed": [
+   "Conversational AI Bots",
+   "Survey and VoC"
+  ],
+  "tickets_monthly": [
+   21,
+   21,
+   22,
+   22,
+   25,
+   19
+  ],
+  "tickets_90d": 66,
+  "escalations_90d": 8,
+  "sev1_90d": 0,
+  "reopen_rate": 0.158,
+  "sentiment": 0.364,
+  "csat": 4.26,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.056,
+  "days_since_exec_touch": 49,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Care Console": [
+    4,
+    1,
+    1,
+    5,
+    2,
+    0
+   ],
+   "Publishing": [
+    3,
+    4,
+    4,
+    2,
+    4,
+    1
+   ],
+   "Integrations and API": [
+    1,
+    5,
+    5,
+    3,
+    3,
+    2
+   ],
+   "Survey and VoC": [
+    0,
+    1,
+    1,
+    2,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.175,
+    "adoption": 0.011,
+    "voice": 0.023,
+    "disengagement": 0.082
+   },
+   "risk_score": 0.077,
+   "churn_probability": 0.037,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 5014,
+   "expansion": {
+    "score": 0.095,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-007",
+  "client": "lumora",
+  "name": "Falconridge Telecom",
+  "segment": "Strategic",
+  "region": "LATAM",
+  "arr": 376000,
+  "archetype": "unhappy_voice",
+  "seats_licensed": 150,
+  "seats_active": 91,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Care Console",
+   "Social Listening",
+   "Insights and Reporting",
+   "Integrations and API",
+   "Publishing"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   46,
+   37,
+   38,
+   35,
+   40,
+   34
+  ],
+  "tickets_90d": 109,
+  "escalations_90d": 6,
+  "sev1_90d": 3,
+  "reopen_rate": 0.185,
+  "sentiment": -0.266,
+  "csat": 3.43,
+  "churn_mentions_90d": 6,
+  "usage_trend": -0.002,
+  "days_since_exec_touch": 87,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Social Listening": [
+    5,
+    4,
+    5,
+    1,
+    2,
+    7
+   ],
+   "Conversational AI Bots": [
+    2,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "Publishing": [
+    3,
+    2,
+    4,
+    2,
+    5,
+    6
+   ],
+   "Insights and Reporting": [
+    3,
+    4,
+    3,
+    4,
+    2,
+    1
+   ],
+   "Care Console": [
+    6,
+    3,
+    7,
+    4,
+    5,
+    2
+   ],
+   "Advanced Insights": [
+    1,
+    2,
+    1,
+    1,
+    0,
+    0
+   ],
+   "Integrations and API": [
+    2,
+    3,
+    3,
+    3,
+    2,
+    3
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.033,
+    "adoption": 0.172,
+    "voice": 0.653,
+    "disengagement": 0.148
+   },
+   "risk_score": 0.246,
+   "churn_probability": 0.222,
+   "band": "amber",
+   "primary_driver": "voice",
+   "arr_at_risk": 83515,
+   "expansion": {
+    "score": 0.15,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-008",
+  "client": "lumora",
+  "name": "Ironleaf Motors",
+  "segment": "Growth",
+  "region": "LATAM",
+  "arr": 270000,
+  "archetype": "healthy",
+  "seats_licensed": 108,
+  "seats_active": 77,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Publishing",
+   "Integrations and API"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   31,
+   33,
+   41,
+   34,
+   32,
+   35
+  ],
+  "tickets_90d": 101,
+  "escalations_90d": 7,
+  "sev1_90d": 3,
+  "reopen_rate": 0.242,
+  "sentiment": 0.366,
+  "csat": 4.06,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.034,
+  "days_since_exec_touch": 29,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Integrations and API": [
+    4,
+    4,
+    7,
+    7,
+    3,
+    4
+   ],
+   "Publishing": [
+    4,
+    6,
+    5,
+    8,
+    3,
+    9
+   ],
+   "Insights and Reporting": [
+    3,
+    6,
+    5,
+    3,
+    4,
+    4
+   ],
+   "Social Listening": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.061,
+    "adoption": 0.044,
+    "voice": 0.057,
+    "disengagement": 0.048
+   },
+   "risk_score": 0.053,
+   "churn_probability": 0.028,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 7458,
+   "expansion": {
+    "score": 0.03,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-009",
+  "client": "lumora",
+  "name": "Kestrel Motors",
+  "segment": "Strategic",
+  "region": "North America",
+  "arr": 278000,
+  "archetype": "healthy",
+  "seats_licensed": 111,
+  "seats_active": 78,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Care Console",
+   "Social Listening",
+   "Insights and Reporting"
+  ],
+  "addons_licensed": [
+   "Conversational AI Bots"
+  ],
+  "tickets_monthly": [
+   33,
+   32,
+   33,
+   26,
+   32,
+   32
+  ],
+  "tickets_90d": 90,
+  "escalations_90d": 9,
+  "sev1_90d": 4,
+  "reopen_rate": 0.115,
+  "sentiment": 0.278,
+  "csat": 4.07,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.015,
+  "days_since_exec_touch": 68,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Social Listening": [
+    5,
+    4,
+    4,
+    3,
+    4,
+    4
+   ],
+   "Insights and Reporting": [
+    4,
+    8,
+    2,
+    3,
+    2,
+    5
+   ],
+   "Care Console": [
+    4,
+    1,
+    7,
+    4,
+    2,
+    3
+   ],
+   "Integrations and API": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   "Publishing": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    1
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.122,
+    "adoption": 0.057,
+    "voice": 0.055,
+    "disengagement": 0.135
+   },
+   "risk_score": 0.092,
+   "churn_probability": 0.043,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 11969,
+   "expansion": {
+    "score": 0.006,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-010",
+  "client": "lumora",
+  "name": "Holloway Health",
+  "segment": "Strategic",
+  "region": "LATAM",
+  "arr": 333000,
+  "archetype": "healthy",
+  "seats_licensed": 133,
+  "seats_active": 110,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Care Console",
+   "Publishing"
+  ],
+  "addons_licensed": [
+   "Advanced Insights",
+   "Conversational AI Bots"
+  ],
+  "tickets_monthly": [
+   26,
+   23,
+   25,
+   30,
+   28,
+   23
+  ],
+  "tickets_90d": 81,
+  "escalations_90d": 6,
+  "sev1_90d": 1,
+  "reopen_rate": 0.091,
+  "sentiment": 0.494,
+  "csat": 4.0,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.069,
+  "days_since_exec_touch": 14,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Publishing": [
+    7,
+    1,
+    6,
+    0,
+    5,
+    3
+   ],
+   "Integrations and API": [
+    5,
+    3,
+    6,
+    7,
+    2,
+    3
+   ],
+   "Care Console": [
+    4,
+    7,
+    0,
+    1,
+    6,
+    1
+   ],
+   "Advanced Insights": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Insights and Reporting": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+   ],
+   "Social Listening": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.0,
+    "voice": 0.067,
+    "disengagement": 0.023
+   },
+   "risk_score": 0.021,
+   "churn_probability": 0.019,
+   "band": "green",
+   "primary_driver": "voice",
+   "arr_at_risk": 6328,
+   "expansion": {
+    "score": 0.296,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-011",
+  "client": "lumora",
+  "name": "Umberfield Telecom",
+  "segment": "Enterprise",
+  "region": "EMEA",
+  "arr": 356000,
+  "archetype": "healthy",
+  "seats_licensed": 142,
+  "seats_active": 92,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Care Console",
+   "Social Listening",
+   "Insights and Reporting",
+   "Publishing",
+   "Integrations and API"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   31,
+   30,
+   25,
+   23,
+   25,
+   27
+  ],
+  "tickets_90d": 75,
+  "escalations_90d": 6,
+  "sev1_90d": 1,
+  "reopen_rate": 0.15,
+  "sentiment": 0.253,
+  "csat": 4.12,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.039,
+  "days_since_exec_touch": 11,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Insights and Reporting": [
+    4,
+    2,
+    2,
+    2,
+    5,
+    4
+   ],
+   "Publishing": [
+    3,
+    5,
+    4,
+    6,
+    3,
+    2
+   ],
+   "Care Console": [
+    1,
+    2,
+    0,
+    3,
+    2,
+    0
+   ],
+   "Social Listening": [
+    3,
+    3,
+    2,
+    2,
+    0,
+    2
+   ],
+   "Advanced Insights": [
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "Integrations and API": [
+    1,
+    1,
+    4,
+    0,
+    2,
+    1
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.015,
+    "adoption": 0.123,
+    "voice": 0.047,
+    "disengagement": 0.074
+   },
+   "risk_score": 0.062,
+   "churn_probability": 0.03,
+   "band": "green",
+   "primary_driver": "adoption",
+   "arr_at_risk": 10841,
+   "expansion": {
+    "score": 0.15,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-012",
+  "client": "lumora",
+  "name": "Jasperline Insurance",
+  "segment": "Enterprise",
+  "region": "APAC",
+  "arr": 593000,
+  "archetype": "escalation_hit",
+  "seats_licensed": 237,
+  "seats_active": 169,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Care Console",
+   "Publishing",
+   "Integrations and API"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   46,
+   43,
+   42,
+   63,
+   62,
+   70
+  ],
+  "tickets_90d": 195,
+  "escalations_90d": 53,
+  "sev1_90d": 18,
+  "reopen_rate": 0.37,
+  "sentiment": -0.262,
+  "csat": 3.55,
+  "churn_mentions_90d": 9,
+  "usage_trend": -0.112,
+  "days_since_exec_touch": 62,
+  "champion_left": true,
+  "howto_by_use_case": {
+   "Care Console": [
+    11,
+    4,
+    6,
+    5,
+    5,
+    6
+   ],
+   "Publishing": [
+    3,
+    7,
+    7,
+    4,
+    1,
+    4
+   ],
+   "Integrations and API": [
+    3,
+    10,
+    2,
+    2,
+    9,
+    6
+   ],
+   "Insights and Reporting": [
+    2,
+    0,
+    0,
+    1,
+    0,
+    2
+   ],
+   "Social Listening": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.975,
+    "adoption": 0.044,
+    "voice": 0.63,
+    "disengagement": 0.563
+   },
+   "risk_score": 0.574,
+   "churn_probability": 0.936,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 555170,
+   "expansion": {
+    "score": 0.031,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-013",
+  "client": "lumora",
+  "name": "Quarrystone Health",
+  "segment": "Growth",
+  "region": "LATAM",
+  "arr": 449000,
+  "archetype": "healthy",
+  "seats_licensed": 179,
+  "seats_active": 146,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Social Listening",
+   "Insights and Reporting",
+   "Care Console"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   56,
+   55,
+   60,
+   61,
+   57,
+   46
+  ],
+  "tickets_90d": 164,
+  "escalations_90d": 13,
+  "sev1_90d": 6,
+  "reopen_rate": 0.146,
+  "sentiment": 0.329,
+  "csat": 4.24,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.029,
+  "days_since_exec_touch": 22,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Advanced Insights": [
+    1,
+    1,
+    0,
+    1,
+    2,
+    0
+   ],
+   "Social Listening": [
+    4,
+    5,
+    4,
+    11,
+    6,
+    8
+   ],
+   "Care Console": [
+    10,
+    5,
+    6,
+    8,
+    9,
+    5
+   ],
+   "Insights and Reporting": [
+    4,
+    6,
+    5,
+    6,
+    3,
+    7
+   ],
+   "Integrations and API": [
+    3,
+    7,
+    9,
+    5,
+    3,
+    2
+   ],
+   "Survey and VoC": [
+    0,
+    2,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    1,
+    0,
+    2,
+    2
+   ],
+   "Publishing": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.046,
+    "adoption": 0.0,
+    "voice": 0.027,
+    "disengagement": 0.037
+   },
+   "risk_score": 0.028,
+   "churn_probability": 0.02,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 9204,
+   "expansion": {
+    "score": 0.345,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-014",
+  "client": "lumora",
+  "name": "Juniper Health",
+  "segment": "Strategic",
+  "region": "APAC",
+  "arr": 332000,
+  "archetype": "healthy",
+  "seats_licensed": 132,
+  "seats_active": 92,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Insights and Reporting",
+   "Care Console"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   35,
+   37,
+   36,
+   34,
+   37,
+   33
+  ],
+  "tickets_90d": 104,
+  "escalations_90d": 9,
+  "sev1_90d": 1,
+  "reopen_rate": 0.269,
+  "sentiment": 0.346,
+  "csat": 4.44,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.014,
+  "days_since_exec_touch": 41,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Care Console": [
+    4,
+    8,
+    4,
+    6,
+    7,
+    6
+   ],
+   "Insights and Reporting": [
+    5,
+    5,
+    6,
+    4,
+    8,
+    3
+   ],
+   "Social Listening": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "Integrations and API": [
+    2,
+    2,
+    5,
+    2,
+    6,
+    7
+   ],
+   "Advanced Insights": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Publishing": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.075,
+    "adoption": 0.064,
+    "voice": 0.0,
+    "disengagement": 0.088
+   },
+   "risk_score": 0.056,
+   "churn_probability": 0.029,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 9462,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-015",
+  "client": "lumora",
+  "name": "Pinecrest Airways",
+  "segment": "Growth",
+  "region": "North America",
+  "arr": 208000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 83,
+  "seats_active": 80,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Publishing",
+   "Social Listening",
+   "Integrations and API",
+   "Care Console"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   20,
+   22,
+   19,
+   18,
+   21,
+   23
+  ],
+  "tickets_90d": 62,
+  "escalations_90d": 3,
+  "sev1_90d": 1,
+  "reopen_rate": 0.158,
+  "sentiment": 0.323,
+  "csat": 4.4,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.179,
+  "days_since_exec_touch": 58,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Publishing": [
+    2,
+    3,
+    1,
+    3,
+    0,
+    1
+   ],
+   "Insights and Reporting": [
+    3,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "Social Listening": [
+    1,
+    2,
+    1,
+    0,
+    1,
+    1
+   ],
+   "Care Console": [
+    2,
+    2,
+    3,
+    3,
+    0,
+    1
+   ],
+   "Integrations and API": [
+    0,
+    2,
+    3,
+    0,
+    2,
+    3
+   ],
+   "Survey and VoC": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    3,
+    1,
+    5
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.019,
+    "adoption": 0.0,
+    "voice": 0.0,
+    "disengagement": 0.097
+   },
+   "risk_score": 0.025,
+   "churn_probability": 0.02,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 4128,
+   "expansion": {
+    "score": 0.5,
+    "seat_trigger": true,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 31200
+   },
+   "expansion_weighted": 9174
+  }
+ },
+ {
+  "id": "LU-016",
+  "client": "lumora",
+  "name": "Oakridge Telecom",
+  "segment": "Strategic",
+  "region": "APAC",
+  "arr": 179000,
+  "archetype": "healthy",
+  "seats_licensed": 71,
+  "seats_active": 47,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Publishing",
+   "Care Console",
+   "Social Listening",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "addons_licensed": [
+   "Conversational AI Bots"
+  ],
+  "tickets_monthly": [
+   17,
+   19,
+   22,
+   21,
+   21,
+   20
+  ],
+  "tickets_90d": 62,
+  "escalations_90d": 3,
+  "sev1_90d": 0,
+  "reopen_rate": 0.118,
+  "sentiment": 0.532,
+  "csat": 4.27,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.021,
+  "days_since_exec_touch": 15,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Insights and Reporting": [
+    3,
+    1,
+    3,
+    5,
+    4,
+    0
+   ],
+   "Publishing": [
+    4,
+    4,
+    2,
+    1,
+    1,
+    2
+   ],
+   "Care Console": [
+    3,
+    0,
+    1,
+    1,
+    2,
+    2
+   ],
+   "Social Listening": [
+    0,
+    2,
+    0,
+    1,
+    3,
+    1
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Integrations and API": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    2
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.106,
+    "voice": 0.022,
+    "disengagement": 0.025
+   },
+   "risk_score": 0.037,
+   "churn_probability": 0.023,
+   "band": "green",
+   "primary_driver": "adoption",
+   "arr_at_risk": 4081,
+   "expansion": {
+    "score": 0.15,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-017",
+  "client": "lumora",
+  "name": "Umberfield Motors",
+  "segment": "Enterprise",
+  "region": "APAC",
+  "arr": 358000,
+  "archetype": "escalation_hit",
+  "seats_licensed": 143,
+  "seats_active": 92,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Social Listening",
+   "Care Console",
+   "Insights and Reporting",
+   "Publishing"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   33,
+   40,
+   35,
+   48,
+   46,
+   50
+  ],
+  "tickets_90d": 144,
+  "escalations_90d": 32,
+  "sev1_90d": 8,
+  "reopen_rate": 0.507,
+  "sentiment": -0.125,
+  "csat": 3.82,
+  "churn_mentions_90d": 10,
+  "usage_trend": -0.023,
+  "days_since_exec_touch": 14,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Care Console": [
+    4,
+    3,
+    3,
+    5,
+    6,
+    1
+   ],
+   "Publishing": [
+    4,
+    2,
+    3,
+    2,
+    1,
+    2
+   ],
+   "Insights and Reporting": [
+    4,
+    3,
+    5,
+    4,
+    2,
+    3
+   ],
+   "Advanced Insights": [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "Social Listening": [
+    3,
+    5,
+    3,
+    7,
+    1,
+    1
+   ],
+   "Conversational AI Bots": [
+    1,
+    1,
+    0,
+    0,
+    3,
+    1
+   ],
+   "Survey and VoC": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.878,
+    "adoption": 0.128,
+    "voice": 0.5,
+    "disengagement": 0.056
+   },
+   "risk_score": 0.432,
+   "churn_probability": 0.727,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 260173,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-018",
+  "client": "lumora",
+  "name": "Silverline Health",
+  "segment": "Growth",
+  "region": "APAC",
+  "arr": 644000,
+  "archetype": "healthy",
+  "seats_licensed": 257,
+  "seats_active": 183,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Integrations and API",
+   "Publishing",
+   "Social Listening"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   46,
+   58,
+   50,
+   52,
+   49,
+   56
+  ],
+  "tickets_90d": 157,
+  "escalations_90d": 14,
+  "sev1_90d": 2,
+  "reopen_rate": 0.098,
+  "sentiment": 0.478,
+  "csat": 4.27,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.078,
+  "days_since_exec_touch": 30,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Integrations and API": [
+    4,
+    6,
+    7,
+    3,
+    5,
+    4
+   ],
+   "Advanced Insights": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    3
+   ],
+   "Social Listening": [
+    7,
+    11,
+    3,
+    4,
+    7,
+    8
+   ],
+   "Insights and Reporting": [
+    7,
+    4,
+    4,
+    5,
+    1,
+    6
+   ],
+   "Publishing": [
+    2,
+    3,
+    6,
+    4,
+    5,
+    6
+   ],
+   "Care Console": [
+    0,
+    1,
+    0,
+    2,
+    1,
+    0
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.046,
+    "voice": 0.022,
+    "disengagement": 0.05
+   },
+   "risk_score": 0.027,
+   "churn_probability": 0.02,
+   "band": "green",
+   "primary_driver": "adoption",
+   "arr_at_risk": 13050,
+   "expansion": {
+    "score": 0.103,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-019",
+  "client": "lumora",
+  "name": "Kestrel Bank",
+  "segment": "Enterprise",
+  "region": "LATAM",
+  "arr": 320000,
+  "archetype": "healthy",
+  "seats_licensed": 128,
+  "seats_active": 98,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Social Listening",
+   "Publishing"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   26,
+   29,
+   34,
+   31,
+   32,
+   30
+  ],
+  "tickets_90d": 93,
+  "escalations_90d": 7,
+  "sev1_90d": 4,
+  "reopen_rate": 0.077,
+  "sentiment": 0.473,
+  "csat": 4.34,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.035,
+  "days_since_exec_touch": 74,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Social Listening": [
+    4,
+    0,
+    5,
+    0,
+    2,
+    3
+   ],
+   "Integrations and API": [
+    8,
+    6,
+    4,
+    5,
+    5,
+    3
+   ],
+   "Insights and Reporting": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Publishing": [
+    2,
+    4,
+    5,
+    5,
+    5,
+    5
+   ],
+   "Survey and VoC": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Care Console": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.065,
+    "adoption": 0.0,
+    "voice": 0.01,
+    "disengagement": 0.123
+   },
+   "risk_score": 0.047,
+   "churn_probability": 0.026,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 8187,
+   "expansion": {
+    "score": 0.153,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-020",
+  "client": "lumora",
+  "name": "Meridian Motors",
+  "segment": "Enterprise",
+  "region": "North America",
+  "arr": 295000,
+  "archetype": "healthy",
+  "seats_licensed": 118,
+  "seats_active": 79,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Publishing",
+   "Integrations and API"
+  ],
+  "addons_licensed": [
+   "Survey and VoC",
+   "Conversational AI Bots"
+  ],
+  "tickets_monthly": [
+   31,
+   33,
+   32,
+   31,
+   32,
+   28
+  ],
+  "tickets_90d": 91,
+  "escalations_90d": 5,
+  "sev1_90d": 2,
+  "reopen_rate": 0.1,
+  "sentiment": 0.352,
+  "csat": 4.37,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.002,
+  "days_since_exec_touch": 51,
+  "champion_left": true,
+  "howto_by_use_case": {
+   "Publishing": [
+    5,
+    5,
+    2,
+    7,
+    4,
+    9
+   ],
+   "Insights and Reporting": [
+    4,
+    3,
+    6,
+    6,
+    4,
+    4
+   ],
+   "Integrations and API": [
+    3,
+    6,
+    4,
+    4,
+    4,
+    3
+   ],
+   "Social Listening": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "Care Console": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.097,
+    "voice": 0.005,
+    "disengagement": 0.385
+   },
+   "risk_score": 0.102,
+   "churn_probability": 0.049,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 14380,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-021",
+  "client": "lumora",
+  "name": "Kingsmere Apparel",
+  "segment": "Enterprise",
+  "region": "EMEA",
+  "arr": 419000,
+  "archetype": "healthy",
+  "seats_licensed": 167,
+  "seats_active": 131,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API",
+   "Social Listening",
+   "Publishing"
+  ],
+  "addons_licensed": [
+   "Survey and VoC"
+  ],
+  "tickets_monthly": [
+   32,
+   42,
+   35,
+   37,
+   37,
+   37
+  ],
+  "tickets_90d": 111,
+  "escalations_90d": 8,
+  "sev1_90d": 3,
+  "reopen_rate": 0.077,
+  "sentiment": 0.414,
+  "csat": 4.22,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.009,
+  "days_since_exec_touch": 20,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Integrations and API": [
+    6,
+    3,
+    4,
+    5,
+    5,
+    6
+   ],
+   "Social Listening": [
+    4,
+    4,
+    6,
+    2,
+    4,
+    2
+   ],
+   "Insights and Reporting": [
+    4,
+    1,
+    2,
+    2,
+    4,
+    2
+   ],
+   "Publishing": [
+    2,
+    3,
+    1,
+    2,
+    5,
+    5
+   ],
+   "Care Console": [
+    3,
+    1,
+    3,
+    3,
+    5,
+    2
+   ],
+   "Advanced Insights": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Survey and VoC": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.0,
+    "voice": 0.03,
+    "disengagement": 0.046
+   },
+   "risk_score": 0.017,
+   "churn_probability": 0.018,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 7543,
+   "expansion": {
+    "score": 0.347,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-022",
+  "client": "lumora",
+  "name": "Silverline Telecom",
+  "segment": "Growth",
+  "region": "LATAM",
+  "arr": 141000,
+  "archetype": "healthy",
+  "seats_licensed": 56,
+  "seats_active": 38,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Social Listening",
+   "Publishing",
+   "Insights and Reporting",
+   "Care Console"
+  ],
+  "addons_licensed": [
+   "Advanced Insights"
+  ],
+  "tickets_monthly": [
+   25,
+   21,
+   21,
+   23,
+   21,
+   21
+  ],
+  "tickets_90d": 65,
+  "escalations_90d": 3,
+  "sev1_90d": 3,
+  "reopen_rate": 0.136,
+  "sentiment": 0.354,
+  "csat": 4.53,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.006,
+  "days_since_exec_touch": 50,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Social Listening": [
+    2,
+    2,
+    3,
+    0,
+    4,
+    0
+   ],
+   "Publishing": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    3
+   ],
+   "Care Console": [
+    5,
+    2,
+    1,
+    1,
+    0,
+    0
+   ],
+   "Insights and Reporting": [
+    3,
+    4,
+    6,
+    2,
+    3,
+    4
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    2
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.089,
+    "adoption": 0.086,
+    "voice": 0.0,
+    "disengagement": 0.092
+   },
+   "risk_score": 0.066,
+   "churn_probability": 0.032,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 4542,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-023",
+  "client": "lumora",
+  "name": "Bluefin Apparel",
+  "segment": "Growth",
+  "region": "North America",
+  "arr": 264000,
+  "archetype": "healthy",
+  "seats_licensed": 105,
+  "seats_active": 65,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Care Console",
+   "Integrations and API"
+  ],
+  "addons_licensed": [
+   "Survey and VoC"
+  ],
+  "tickets_monthly": [
+   31,
+   34,
+   28,
+   31,
+   35,
+   32
+  ],
+  "tickets_90d": 98,
+  "escalations_90d": 4,
+  "sev1_90d": 0,
+  "reopen_rate": 0.24,
+  "sentiment": 0.439,
+  "csat": 4.13,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.036,
+  "days_since_exec_touch": 75,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Care Console": [
+    9,
+    5,
+    2,
+    5,
+    3,
+    4
+   ],
+   "Integrations and API": [
+    5,
+    6,
+    5,
+    6,
+    7,
+    2
+   ],
+   "Publishing": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Insights and Reporting": [
+    1,
+    5,
+    7,
+    1,
+    8,
+    6
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.06,
+    "adoption": 0.157,
+    "voice": 0.045,
+    "disengagement": 0.176
+   },
+   "risk_score": 0.104,
+   "churn_probability": 0.05,
+   "band": "green",
+   "primary_driver": "adoption",
+   "arr_at_risk": 13079,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-024",
+  "client": "lumora",
+  "name": "Alderbrook Airways",
+  "segment": "Growth",
+  "region": "EMEA",
+  "arr": 410000,
+  "archetype": "drifting",
+  "seats_licensed": 164,
+  "seats_active": 86,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Social Listening",
+   "Care Console",
+   "Publishing",
+   "Insights and Reporting"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   28,
+   30,
+   24,
+   21,
+   16,
+   12
+  ],
+  "tickets_90d": 49,
+  "escalations_90d": 9,
+  "sev1_90d": 2,
+  "reopen_rate": 0.0,
+  "sentiment": 0.184,
+  "csat": 4.37,
+  "churn_mentions_90d": 5,
+  "usage_trend": -0.369,
+  "days_since_exec_touch": 127,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Care Console": [
+    4,
+    3,
+    2,
+    2,
+    0,
+    1
+   ],
+   "Insights and Reporting": [
+    2,
+    5,
+    4,
+    3,
+    1,
+    1
+   ],
+   "Conversational AI Bots": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Social Listening": [
+    6,
+    2,
+    1,
+    3,
+    3,
+    2
+   ],
+   "Publishing": [
+    3,
+    2,
+    0,
+    2,
+    2,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.522,
+    "adoption": 0.271,
+    "voice": 0.215,
+    "disengagement": 0.7
+   },
+   "risk_score": 0.418,
+   "churn_probability": 0.694,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 284464,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-025",
+  "client": "lumora",
+  "name": "Umberfield Foods",
+  "segment": "Strategic",
+  "region": "North America",
+  "arr": 506000,
+  "archetype": "unhappy_voice",
+  "seats_licensed": 202,
+  "seats_active": 113,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Publishing",
+   "Integrations and API",
+   "Social Listening"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   47,
+   44,
+   52,
+   49,
+   47,
+   45
+  ],
+  "tickets_90d": 141,
+  "escalations_90d": 13,
+  "sev1_90d": 4,
+  "reopen_rate": 0.229,
+  "sentiment": -0.191,
+  "csat": 3.62,
+  "churn_mentions_90d": 7,
+  "usage_trend": -0.091,
+  "days_since_exec_touch": 57,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Publishing": [
+    7,
+    7,
+    4,
+    9,
+    5,
+    9
+   ],
+   "Integrations and API": [
+    5,
+    6,
+    6,
+    4,
+    7,
+    1
+   ],
+   "Social Listening": [
+    5,
+    7,
+    5,
+    8,
+    7,
+    9
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    3
+   ],
+   "Insights and Reporting": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Care Console": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.065,
+    "adoption": 0.229,
+    "voice": 0.574,
+    "disengagement": 0.225
+   },
+   "risk_score": 0.265,
+   "churn_probability": 0.266,
+   "band": "amber",
+   "primary_driver": "voice",
+   "arr_at_risk": 134601,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-026",
+  "client": "lumora",
+  "name": "Falconridge Bank",
+  "segment": "Strategic",
+  "region": "APAC",
+  "arr": 274000,
+  "archetype": "escalation_hit",
+  "seats_licensed": 109,
+  "seats_active": 79,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Insights and Reporting",
+   "Publishing",
+   "Social Listening"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   24,
+   20,
+   19,
+   30,
+   32,
+   33
+  ],
+  "tickets_90d": 95,
+  "escalations_90d": 14,
+  "sev1_90d": 7,
+  "reopen_rate": 0.373,
+  "sentiment": -0.105,
+  "csat": 3.67,
+  "churn_mentions_90d": 9,
+  "usage_trend": -0.111,
+  "days_since_exec_touch": 73,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Advanced Insights": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "Integrations and API": [
+    3,
+    2,
+    2,
+    1,
+    7,
+    1
+   ],
+   "Insights and Reporting": [
+    3,
+    1,
+    1,
+    2,
+    1,
+    2
+   ],
+   "Social Listening": [
+    4,
+    1,
+    4,
+    2,
+    3,
+    2
+   ],
+   "Publishing": [
+    1,
+    4,
+    1,
+    1,
+    0,
+    6
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.632,
+    "adoption": 0.03,
+    "voice": 0.512,
+    "disengagement": 0.28
+   },
+   "risk_score": 0.381,
+   "churn_probability": 0.593,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 162365,
+   "expansion": {
+    "score": 0.133,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-027",
+  "client": "lumora",
+  "name": "Pinecrest Bank",
+  "segment": "Enterprise",
+  "region": "North America",
+  "arr": 385000,
+  "archetype": "low_adoption",
+  "seats_licensed": 154,
+  "seats_active": 62,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   31,
+   27,
+   25,
+   24,
+   25,
+   27
+  ],
+  "tickets_90d": 76,
+  "escalations_90d": 4,
+  "sev1_90d": 1,
+  "reopen_rate": 0.111,
+  "sentiment": 0.329,
+  "csat": 4.23,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.095,
+  "days_since_exec_touch": 52,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Integrations and API": [
+    8,
+    4,
+    6,
+    5,
+    7,
+    5
+   ],
+   "Insights and Reporting": [
+    6,
+    7,
+    1,
+    5,
+    3,
+    5
+   ],
+   "Social Listening": [
+    1,
+    1,
+    2,
+    0,
+    0,
+    0
+   ],
+   "Care Console": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Advanced Insights": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Publishing": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.577,
+    "voice": 0.028,
+    "disengagement": 0.222
+   },
+   "risk_score": 0.196,
+   "churn_probability": 0.136,
+   "band": "green",
+   "primary_driver": "adoption",
+   "arr_at_risk": 52282,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-028",
+  "client": "lumora",
+  "name": "Yarrowby Hotels",
+  "segment": "Enterprise",
+  "region": "North America",
+  "arr": 359000,
+  "archetype": "low_adoption",
+  "seats_licensed": 143,
+  "seats_active": 63,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Care Console",
+   "Insights and Reporting"
+  ],
+  "addons_licensed": [
+   "Survey and VoC",
+   "Advanced Insights"
+  ],
+  "tickets_monthly": [
+   30,
+   30,
+   30,
+   28,
+   27,
+   28
+  ],
+  "tickets_90d": 83,
+  "escalations_90d": 3,
+  "sev1_90d": 0,
+  "reopen_rate": 0.087,
+  "sentiment": 0.325,
+  "csat": 4.15,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.043,
+  "days_since_exec_touch": 32,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Advanced Insights": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Care Console": [
+    4,
+    6,
+    8,
+    6,
+    8,
+    6
+   ],
+   "Insights and Reporting": [
+    9,
+    6,
+    6,
+    7,
+    7,
+    6
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.531,
+    "voice": 0.042,
+    "disengagement": 0.115
+   },
+   "risk_score": 0.166,
+   "churn_probability": 0.099,
+   "band": "green",
+   "primary_driver": "adoption",
+   "arr_at_risk": 35631,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-029",
+  "client": "lumora",
+  "name": "Evermoor Apparel",
+  "segment": "Strategic",
+  "region": "EMEA",
+  "arr": 481000,
+  "archetype": "escalation_hit",
+  "seats_licensed": 192,
+  "seats_active": 106,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "addons_licensed": [
+   "Advanced Insights"
+  ],
+  "tickets_monthly": [
+   42,
+   45,
+   42,
+   63,
+   63,
+   63
+  ],
+  "tickets_90d": 189,
+  "escalations_90d": 49,
+  "sev1_90d": 17,
+  "reopen_rate": 0.48,
+  "sentiment": -0.27,
+  "csat": 3.6,
+  "churn_mentions_90d": 14,
+  "usage_trend": -0.079,
+  "days_since_exec_touch": 60,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Publishing": [
+    7,
+    6,
+    6,
+    5,
+    2,
+    2
+   ],
+   "Social Listening": [
+    4,
+    3,
+    3,
+    1,
+    4,
+    2
+   ],
+   "Care Console": [
+    6,
+    4,
+    4,
+    3,
+    3,
+    3
+   ],
+   "Integrations and API": [
+    2,
+    2,
+    3,
+    4,
+    2,
+    8
+   ],
+   "Survey and VoC": [
+    1,
+    1,
+    2,
+    0,
+    0,
+    0
+   ],
+   "Insights and Reporting": [
+    1,
+    5,
+    6,
+    4,
+    1,
+    4
+   ],
+   "Conversational AI Bots": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    4
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 1.0,
+    "adoption": 0.237,
+    "voice": 0.627,
+    "disengagement": 0.213
+   },
+   "risk_score": 0.559,
+   "churn_probability": 0.924,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 444667,
+   "expansion": {
+    "score": 0.15,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-030",
+  "client": "lumora",
+  "name": "Pinecrest Hotels",
+  "segment": "Enterprise",
+  "region": "APAC",
+  "arr": 170000,
+  "archetype": "low_adoption",
+  "seats_licensed": 68,
+  "seats_active": 16,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Care Console"
+  ],
+  "addons_licensed": [
+   "Survey and VoC",
+   "Advanced Insights"
+  ],
+  "tickets_monthly": [
+   20,
+   17,
+   17,
+   19,
+   18,
+   20
+  ],
+  "tickets_90d": 57,
+  "escalations_90d": 3,
+  "sev1_90d": 1,
+  "reopen_rate": 0.083,
+  "sentiment": 0.263,
+  "csat": 4.05,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.03,
+  "days_since_exec_touch": 66,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Insights and Reporting": [
+    6,
+    1,
+    4,
+    2,
+    2,
+    3
+   ],
+   "Care Console": [
+    2,
+    1,
+    1,
+    5,
+    6,
+    6
+   ],
+   "Survey and VoC": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Publishing": [
+    0,
+    0,
+    0,
+    2,
+    1,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    2
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.76,
+    "voice": 0.058,
+    "disengagement": 0.11
+   },
+   "risk_score": 0.227,
+   "churn_probability": 0.185,
+   "band": "amber",
+   "primary_driver": "adoption",
+   "arr_at_risk": 31497,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-031",
+  "client": "lumora",
+  "name": "Oakridge Bank",
+  "segment": "Strategic",
+  "region": "EMEA",
+  "arr": 428000,
+  "archetype": "unhappy_voice",
+  "seats_licensed": 171,
+  "seats_active": 115,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Care Console",
+   "Publishing",
+   "Insights and Reporting",
+   "Social Listening",
+   "Integrations and API"
+  ],
+  "addons_licensed": [
+   "Advanced Insights",
+   "Survey and VoC"
+  ],
+  "tickets_monthly": [
+   27,
+   30,
+   30,
+   27,
+   30,
+   31
+  ],
+  "tickets_90d": 88,
+  "escalations_90d": 9,
+  "sev1_90d": 2,
+  "reopen_rate": 0.059,
+  "sentiment": -0.159,
+  "csat": 3.52,
+  "churn_mentions_90d": 2,
+  "usage_trend": -0.025,
+  "days_since_exec_touch": 70,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Publishing": [
+    4,
+    1,
+    2,
+    4,
+    1,
+    1
+   ],
+   "Care Console": [
+    3,
+    5,
+    1,
+    1,
+    1,
+    1
+   ],
+   "Insights and Reporting": [
+    3,
+    1,
+    3,
+    2,
+    4,
+    4
+   ],
+   "Integrations and API": [
+    0,
+    4,
+    3,
+    4,
+    6,
+    3
+   ],
+   "Survey and VoC": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    1,
+    0,
+    2,
+    1,
+    2
+   ],
+   "Social Listening": [
+    0,
+    1,
+    5,
+    3,
+    0,
+    3
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.061,
+    "adoption": 0.093,
+    "voice": 0.471,
+    "disengagement": 0.152
+   },
+   "risk_score": 0.19,
+   "churn_probability": 0.128,
+   "band": "green",
+   "primary_driver": "voice",
+   "arr_at_risk": 54663,
+   "expansion": {
+    "score": 0.15,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-032",
+  "client": "lumora",
+  "name": "Jasperline Airways",
+  "segment": "Growth",
+  "region": "APAC",
+  "arr": 136000,
+  "archetype": "healthy",
+  "seats_licensed": 54,
+  "seats_active": 45,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Publishing",
+   "Social Listening",
+   "Integrations and API",
+   "Care Console"
+  ],
+  "addons_licensed": [
+   "Survey and VoC"
+  ],
+  "tickets_monthly": [
+   15,
+   15,
+   13,
+   13,
+   12,
+   12
+  ],
+  "tickets_90d": 37,
+  "escalations_90d": 2,
+  "sev1_90d": 0,
+  "reopen_rate": 0.083,
+  "sentiment": 0.378,
+  "csat": 4.1,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.057,
+  "days_since_exec_touch": 14,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Care Console": [
+    1,
+    2,
+    3,
+    0,
+    0,
+    2
+   ],
+   "Social Listening": [
+    4,
+    1,
+    1,
+    1,
+    2,
+    2
+   ],
+   "Integrations and API": [
+    2,
+    1,
+    0,
+    1,
+    2,
+    0
+   ],
+   "Publishing": [
+    0,
+    3,
+    2,
+    2,
+    2,
+    1
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   "Insights and Reporting": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.0,
+    "voice": 0.05,
+    "disengagement": 0.023
+   },
+   "risk_score": 0.017,
+   "churn_probability": 0.018,
+   "band": "green",
+   "primary_driver": "voice",
+   "arr_at_risk": 2461,
+   "expansion": {
+    "score": 0.386,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-033",
+  "client": "lumora",
+  "name": "Ember Motors",
+  "segment": "Enterprise",
+  "region": "LATAM",
+  "arr": 74000,
+  "archetype": "healthy",
+  "seats_licensed": 29,
+  "seats_active": 21,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Integrations and API",
+   "Publishing",
+   "Care Console",
+   "Social Listening"
+  ],
+  "addons_licensed": [
+   "Advanced Insights"
+  ],
+  "tickets_monthly": [
+   12,
+   12,
+   13,
+   12,
+   11,
+   12
+  ],
+  "tickets_90d": 35,
+  "escalations_90d": 5,
+  "sev1_90d": 2,
+  "reopen_rate": 0.333,
+  "sentiment": 0.4,
+  "csat": 4.31,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.004,
+  "days_since_exec_touch": 31,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Care Console": [
+    3,
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "Publishing": [
+    0,
+    3,
+    1,
+    0,
+    1,
+    1
+   ],
+   "Integrations and API": [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "Insights and Reporting": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   "Social Listening": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.507,
+    "adoption": 0.031,
+    "voice": 0.015,
+    "disengagement": 0.052
+   },
+   "risk_score": 0.174,
+   "churn_probability": 0.108,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 7969,
+   "expansion": {
+    "score": 0.206,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-034",
+  "client": "lumora",
+  "name": "Driftwood Apparel",
+  "segment": "Growth",
+  "region": "APAC",
+  "arr": 224000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 89,
+  "seats_active": 79,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Social Listening",
+   "Publishing",
+   "Insights and Reporting",
+   "Care Console",
+   "Integrations and API"
+  ],
+  "addons_licensed": [
+   "Survey and VoC"
+  ],
+  "tickets_monthly": [
+   18,
+   18,
+   17,
+   18,
+   19,
+   19
+  ],
+  "tickets_90d": 56,
+  "escalations_90d": 2,
+  "sev1_90d": 0,
+  "reopen_rate": 0.25,
+  "sentiment": 0.304,
+  "csat": 4.11,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.214,
+  "days_since_exec_touch": 11,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Care Console": [
+    3,
+    0,
+    0,
+    1,
+    3,
+    0
+   ],
+   "Social Listening": [
+    1,
+    0,
+    4,
+    1,
+    2,
+    1
+   ],
+   "Conversational AI Bots": [
+    1,
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "Integrations and API": [
+    3,
+    1,
+    0,
+    1,
+    3,
+    2
+   ],
+   "Publishing": [
+    1,
+    2,
+    1,
+    1,
+    1,
+    1
+   ],
+   "Insights and Reporting": [
+    0,
+    2,
+    0,
+    0,
+    2,
+    1
+   ],
+   "Survey and VoC": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.065,
+    "adoption": 0.0,
+    "voice": 0.048,
+    "disengagement": 0.018
+   },
+   "risk_score": 0.035,
+   "churn_probability": 0.022,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 5013,
+   "expansion": {
+    "score": 0.5,
+    "seat_trigger": true,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 33600
+   },
+   "expansion_weighted": 9854
+  }
+ },
+ {
+  "id": "LU-035",
+  "client": "lumora",
+  "name": "Oakridge Insurance",
+  "segment": "Enterprise",
+  "region": "APAC",
+  "arr": 189000,
+  "archetype": "unhappy_voice",
+  "seats_licensed": 75,
+  "seats_active": 45,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Care Console",
+   "Publishing"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   16,
+   17,
+   17,
+   18,
+   20,
+   18
+  ],
+  "tickets_90d": 56,
+  "escalations_90d": 3,
+  "sev1_90d": 0,
+  "reopen_rate": 0.125,
+  "sentiment": -0.321,
+  "csat": 3.5,
+  "churn_mentions_90d": 1,
+  "usage_trend": -0.037,
+  "days_since_exec_touch": 104,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Insights and Reporting": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Care Console": [
+    1,
+    3,
+    1,
+    1,
+    2,
+    1
+   ],
+   "Integrations and API": [
+    3,
+    2,
+    4,
+    2,
+    4,
+    2
+   ],
+   "Publishing": [
+    1,
+    2,
+    4,
+    2,
+    1,
+    3
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.003,
+    "adoption": 0.18,
+    "voice": 0.526,
+    "disengagement": 0.226
+   },
+   "risk_score": 0.222,
+   "churn_probability": 0.178,
+   "band": "amber",
+   "primary_driver": "voice",
+   "arr_at_risk": 33606,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-036",
+  "client": "lumora",
+  "name": "Tidewater Motors",
+  "segment": "Strategic",
+  "region": "APAC",
+  "arr": 507000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 202,
+  "seats_active": 181,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Social Listening",
+   "Insights and Reporting",
+   "Publishing",
+   "Care Console"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   53,
+   59,
+   61,
+   51,
+   58,
+   58
+  ],
+  "tickets_90d": 167,
+  "escalations_90d": 15,
+  "sev1_90d": 2,
+  "reopen_rate": 0.125,
+  "sentiment": 0.455,
+  "csat": 4.22,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.21,
+  "days_since_exec_touch": 49,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Care Console": [
+    2,
+    5,
+    2,
+    7,
+    3,
+    4
+   ],
+   "Social Listening": [
+    2,
+    2,
+    5,
+    2,
+    5,
+    9
+   ],
+   "Advanced Insights": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "Integrations and API": [
+    3,
+    7,
+    6,
+    2,
+    5,
+    4
+   ],
+   "Publishing": [
+    3,
+    2,
+    4,
+    4,
+    5,
+    2
+   ],
+   "Conversational AI Bots": [
+    4,
+    6,
+    5,
+    4,
+    2,
+    15
+   ],
+   "Insights and Reporting": [
+    1,
+    3,
+    4,
+    2,
+    7,
+    1
+   ],
+   "Survey and VoC": [
+    0,
+    1,
+    1,
+    2,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.003,
+    "adoption": 0.0,
+    "voice": 0.03,
+    "disengagement": 0.082
+   },
+   "risk_score": 0.025,
+   "churn_probability": 0.02,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 10010,
+   "expansion": {
+    "score": 1.0,
+    "seat_trigger": true,
+    "surges": [
+     {
+      "use_case": "Conversational AI Bots",
+      "last_month": 15,
+      "baseline": 3.7,
+      "ratio": 4.09
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 177450
+   },
+   "expansion_weighted": 52184
+  }
+ },
+ {
+  "id": "LU-037",
+  "client": "lumora",
+  "name": "Larkspur Apparel",
+  "segment": "Growth",
+  "region": "North America",
+  "arr": 451000,
+  "archetype": "healthy",
+  "seats_licensed": 180,
+  "seats_active": 143,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Social Listening",
+   "Publishing",
+   "Care Console"
+  ],
+  "addons_licensed": [
+   "Survey and VoC"
+  ],
+  "tickets_monthly": [
+   35,
+   35,
+   38,
+   40,
+   41,
+   34
+  ],
+  "tickets_90d": 115,
+  "escalations_90d": 9,
+  "sev1_90d": 1,
+  "reopen_rate": 0.125,
+  "sentiment": 0.417,
+  "csat": 4.29,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.068,
+  "days_since_exec_touch": 15,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Publishing": [
+    3,
+    7,
+    3,
+    8,
+    5,
+    4
+   ],
+   "Insights and Reporting": [
+    5,
+    3,
+    6,
+    2,
+    7,
+    7
+   ],
+   "Care Console": [
+    5,
+    0,
+    4,
+    8,
+    2,
+    2
+   ],
+   "Social Listening": [
+    3,
+    4,
+    7,
+    2,
+    6,
+    4
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    1,
+    2,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.003,
+    "adoption": 0.0,
+    "voice": 0.018,
+    "disengagement": 0.025
+   },
+   "risk_score": 0.01,
+   "churn_probability": 0.017,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 7528,
+   "expansion": {
+    "score": 0.295,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-038",
+  "client": "lumora",
+  "name": "Alderbrook Health",
+  "segment": "Enterprise",
+  "region": "APAC",
+  "arr": 160000,
+  "archetype": "drifting",
+  "seats_licensed": 64,
+  "seats_active": 32,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Publishing",
+   "Insights and Reporting",
+   "Care Console"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   28,
+   23,
+   18,
+   16,
+   13,
+   9
+  ],
+  "tickets_90d": 38,
+  "escalations_90d": 6,
+  "sev1_90d": 2,
+  "reopen_rate": 0.2,
+  "sentiment": 0.237,
+  "csat": 4.0,
+  "churn_mentions_90d": 1,
+  "usage_trend": -0.409,
+  "days_since_exec_touch": 121,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Insights and Reporting": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "Publishing": [
+    2,
+    1,
+    3,
+    2,
+    0,
+    0
+   ],
+   "Integrations and API": [
+    2,
+    2,
+    2,
+    2,
+    0,
+    1
+   ],
+   "Care Console": [
+    4,
+    3,
+    2,
+    0,
+    3,
+    5
+   ],
+   "Social Listening": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.493,
+    "adoption": 0.3,
+    "voice": 0.117,
+    "disengagement": 0.7
+   },
+   "risk_score": 0.392,
+   "churn_probability": 0.623,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 99724,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-039",
+  "client": "lumora",
+  "name": "Tidewater Health",
+  "segment": "Enterprise",
+  "region": "LATAM",
+  "arr": 499000,
+  "archetype": "healthy",
+  "seats_licensed": 199,
+  "seats_active": 141,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Integrations and API",
+   "Social Listening",
+   "Publishing",
+   "Care Console"
+  ],
+  "addons_licensed": [
+   "Advanced Insights"
+  ],
+  "tickets_monthly": [
+   43,
+   40,
+   39,
+   40,
+   38,
+   41
+  ],
+  "tickets_90d": 119,
+  "escalations_90d": 7,
+  "sev1_90d": 2,
+  "reopen_rate": 0.182,
+  "sentiment": 0.336,
+  "csat": 4.35,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.0,
+  "days_since_exec_touch": 60,
+  "champion_left": true,
+  "howto_by_use_case": {
+   "Insights and Reporting": [
+    5,
+    4,
+    3,
+    6,
+    4,
+    2
+   ],
+   "Conversational AI Bots": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "Social Listening": [
+    2,
+    1,
+    6,
+    3,
+    3,
+    3
+   ],
+   "Care Console": [
+    4,
+    2,
+    6,
+    2,
+    3,
+    6
+   ],
+   "Publishing": [
+    2,
+    1,
+    4,
+    5,
+    4,
+    5
+   ],
+   "Integrations and API": [
+    1,
+    1,
+    3,
+    3,
+    3,
+    3
+   ],
+   "Survey and VoC": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.031,
+    "adoption": 0.05,
+    "voice": 0.008,
+    "disengagement": 0.4
+   },
+   "risk_score": 0.104,
+   "churn_probability": 0.05,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 24721,
+   "expansion": {
+    "score": 0.17,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-040",
+  "client": "lumora",
+  "name": "Holloway Airways",
+  "segment": "Enterprise",
+  "region": "LATAM",
+  "arr": 180000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 72,
+  "seats_active": 69,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Insights and Reporting",
+   "Publishing",
+   "Care Console",
+   "Social Listening"
+  ],
+  "addons_licensed": [
+   "Advanced Insights",
+   "Survey and VoC"
+  ],
+  "tickets_monthly": [
+   21,
+   23,
+   20,
+   22,
+   21,
+   22
+  ],
+  "tickets_90d": 65,
+  "escalations_90d": 6,
+  "sev1_90d": 1,
+  "reopen_rate": 0.125,
+  "sentiment": 0.169,
+  "csat": 4.11,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.085,
+  "days_since_exec_touch": 23,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Social Listening": [
+    1,
+    1,
+    0,
+    2,
+    2,
+    1
+   ],
+   "Conversational AI Bots": [
+    3,
+    2,
+    0,
+    5,
+    0,
+    3
+   ],
+   "Publishing": [
+    1,
+    1,
+    3,
+    4,
+    0,
+    2
+   ],
+   "Integrations and API": [
+    2,
+    1,
+    2,
+    0,
+    2,
+    1
+   ],
+   "Care Console": [
+    3,
+    4,
+    3,
+    1,
+    1,
+    1
+   ],
+   "Insights and Reporting": [
+    1,
+    3,
+    3,
+    2,
+    1,
+    0
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.014,
+    "adoption": 0.0,
+    "voice": 0.068,
+    "disengagement": 0.038
+   },
+   "risk_score": 0.029,
+   "churn_probability": 0.021,
+   "band": "green",
+   "primary_driver": "voice",
+   "arr_at_risk": 3735,
+   "expansion": {
+    "score": 0.5,
+    "seat_trigger": true,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 27000
+   },
+   "expansion_weighted": 7932
+  }
+ },
+ {
+  "id": "LU-041",
+  "client": "lumora",
+  "name": "Pinecrest Apparel",
+  "segment": "Enterprise",
+  "region": "North America",
+  "arr": 298000,
+  "archetype": "healthy",
+  "seats_licensed": 119,
+  "seats_active": 96,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Social Listening",
+   "Care Console"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   37,
+   45,
+   36,
+   37,
+   40,
+   38
+  ],
+  "tickets_90d": 115,
+  "escalations_90d": 12,
+  "sev1_90d": 2,
+  "reopen_rate": 0.108,
+  "sentiment": 0.496,
+  "csat": 4.27,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.031,
+  "days_since_exec_touch": 59,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Care Console": [
+    8,
+    6,
+    6,
+    11,
+    4,
+    2
+   ],
+   "Social Listening": [
+    5,
+    11,
+    1,
+    4,
+    4,
+    5
+   ],
+   "Insights and Reporting": [
+    4,
+    5,
+    6,
+    4,
+    3,
+    3
+   ],
+   "Conversational AI Bots": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Integrations and API": [
+    0,
+    1,
+    2,
+    1,
+    1,
+    1
+   ],
+   "Advanced Insights": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Publishing": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.072,
+    "adoption": 0.0,
+    "voice": 0.022,
+    "disengagement": 0.098
+   },
+   "risk_score": 0.047,
+   "churn_probability": 0.026,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 7618,
+   "expansion": {
+    "score": 0.249,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-042",
+  "client": "lumora",
+  "name": "Aurelia Airways",
+  "segment": "Growth",
+  "region": "North America",
+  "arr": 266000,
+  "archetype": "healthy",
+  "seats_licensed": 106,
+  "seats_active": 80,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Social Listening",
+   "Insights and Reporting",
+   "Publishing",
+   "Care Console"
+  ],
+  "addons_licensed": [
+   "Survey and VoC",
+   "Advanced Insights"
+  ],
+  "tickets_monthly": [
+   30,
+   32,
+   32,
+   30,
+   32,
+   37
+  ],
+  "tickets_90d": 99,
+  "escalations_90d": 9,
+  "sev1_90d": 1,
+  "reopen_rate": 0.143,
+  "sentiment": 0.374,
+  "csat": 3.97,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.038,
+  "days_since_exec_touch": 27,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Integrations and API": [
+    1,
+    3,
+    1,
+    2,
+    4,
+    4
+   ],
+   "Social Listening": [
+    1,
+    3,
+    6,
+    1,
+    4,
+    4
+   ],
+   "Care Console": [
+    3,
+    1,
+    2,
+    4,
+    2,
+    3
+   ],
+   "Publishing": [
+    1,
+    3,
+    1,
+    5,
+    2,
+    4
+   ],
+   "Insights and Reporting": [
+    2,
+    3,
+    2,
+    4,
+    1,
+    2
+   ],
+   "Survey and VoC": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.016,
+    "adoption": 0.0,
+    "voice": 0.072,
+    "disengagement": 0.045
+   },
+   "risk_score": 0.032,
+   "churn_probability": 0.021,
+   "band": "green",
+   "primary_driver": "voice",
+   "arr_at_risk": 5712,
+   "expansion": {
+    "score": 0.278,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-043",
+  "client": "lumora",
+  "name": "Copperfield Bank",
+  "segment": "Enterprise",
+  "region": "EMEA",
+  "arr": 333000,
+  "archetype": "unhappy_voice",
+  "seats_licensed": 133,
+  "seats_active": 76,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Insights and Reporting",
+   "Care Console",
+   "Social Listening"
+  ],
+  "addons_licensed": [
+   "Survey and VoC"
+  ],
+  "tickets_monthly": [
+   26,
+   27,
+   23,
+   30,
+   28,
+   25
+  ],
+  "tickets_90d": 83,
+  "escalations_90d": 7,
+  "sev1_90d": 0,
+  "reopen_rate": 0.182,
+  "sentiment": -0.241,
+  "csat": 3.96,
+  "churn_mentions_90d": 7,
+  "usage_trend": -0.103,
+  "days_since_exec_touch": 89,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Insights and Reporting": [
+    3,
+    4,
+    2,
+    1,
+    4,
+    2
+   ],
+   "Care Console": [
+    4,
+    3,
+    5,
+    2,
+    3,
+    7
+   ],
+   "Integrations and API": [
+    2,
+    2,
+    0,
+    1,
+    4,
+    0
+   ],
+   "Social Listening": [
+    1,
+    1,
+    2,
+    4,
+    2,
+    4
+   ],
+   "Survey and VoC": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Publishing": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.031,
+    "adoption": 0.214,
+    "voice": 0.549,
+    "disengagement": 0.295
+   },
+   "risk_score": 0.259,
+   "churn_probability": 0.252,
+   "band": "amber",
+   "primary_driver": "voice",
+   "arr_at_risk": 83819,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-044",
+  "client": "lumora",
+  "name": "Fernhill Apparel",
+  "segment": "Enterprise",
+  "region": "North America",
+  "arr": 491000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 196,
+  "seats_active": 174,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Care Console",
+   "Integrations and API",
+   "Publishing",
+   "Social Listening"
+  ],
+  "addons_licensed": [
+   "Survey and VoC"
+  ],
+  "tickets_monthly": [
+   53,
+   50,
+   50,
+   51,
+   43,
+   52
+  ],
+  "tickets_90d": 146,
+  "escalations_90d": 18,
+  "sev1_90d": 3,
+  "reopen_rate": 0.059,
+  "sentiment": 0.308,
+  "csat": 4.31,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.133,
+  "days_since_exec_touch": 50,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Conversational AI Bots": [
+    3,
+    3,
+    3,
+    1,
+    1,
+    12
+   ],
+   "Social Listening": [
+    4,
+    1,
+    10,
+    2,
+    0,
+    4
+   ],
+   "Integrations and API": [
+    7,
+    2,
+    3,
+    7,
+    4,
+    2
+   ],
+   "Publishing": [
+    4,
+    5,
+    3,
+    2,
+    5,
+    3
+   ],
+   "Insights and Reporting": [
+    4,
+    5,
+    2,
+    5,
+    3,
+    1
+   ],
+   "Care Console": [
+    2,
+    3,
+    5,
+    6,
+    5,
+    4
+   ],
+   "Survey and VoC": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.166,
+    "adoption": 0.0,
+    "voice": 0.015,
+    "disengagement": 0.083
+   },
+   "risk_score": 0.07,
+   "churn_probability": 0.034,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 16549,
+   "expansion": {
+    "score": 1.0,
+    "seat_trigger": true,
+    "surges": [
+     {
+      "use_case": "Conversational AI Bots",
+      "last_month": 12,
+      "baseline": 1.7,
+      "ratio": 7.2
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 171850
+   },
+   "expansion_weighted": 49817
+  }
+ },
+ {
+  "id": "LU-045",
+  "client": "lumora",
+  "name": "Evermoor Insurance",
+  "segment": "Strategic",
+  "region": "North America",
+  "arr": 445000,
+  "archetype": "healthy",
+  "seats_licensed": 178,
+  "seats_active": 125,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Insights and Reporting",
+   "Publishing",
+   "Social Listening",
+   "Care Console"
+  ],
+  "addons_licensed": [
+   "Survey and VoC"
+  ],
+  "tickets_monthly": [
+   30,
+   28,
+   35,
+   37,
+   36,
+   36
+  ],
+  "tickets_90d": 109,
+  "escalations_90d": 11,
+  "sev1_90d": 2,
+  "reopen_rate": 0.207,
+  "sentiment": 0.422,
+  "csat": 4.34,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.043,
+  "days_since_exec_touch": 73,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Social Listening": [
+    1,
+    1,
+    2,
+    1,
+    4,
+    3
+   ],
+   "Integrations and API": [
+    3,
+    1,
+    2,
+    6,
+    2,
+    1
+   ],
+   "Publishing": [
+    2,
+    3,
+    2,
+    2,
+    1,
+    2
+   ],
+   "Insights and Reporting": [
+    2,
+    2,
+    9,
+    3,
+    2,
+    5
+   ],
+   "Care Console": [
+    1,
+    2,
+    0,
+    5,
+    2,
+    1
+   ],
+   "Conversational AI Bots": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.098,
+    "adoption": 0.057,
+    "voice": 0.01,
+    "disengagement": 0.122
+   },
+   "risk_score": 0.071,
+   "churn_probability": 0.034,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 15040,
+   "expansion": {
+    "score": 0.155,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-046",
+  "client": "lumora",
+  "name": "Meridian Apparel",
+  "segment": "Enterprise",
+  "region": "EMEA",
+  "arr": 379000,
+  "archetype": "healthy",
+  "seats_licensed": 151,
+  "seats_active": 118,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Social Listening",
+   "Care Console",
+   "Publishing",
+   "Insights and Reporting"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   32,
+   32,
+   33,
+   33,
+   30,
+   33
+  ],
+  "tickets_90d": 96,
+  "escalations_90d": 7,
+  "sev1_90d": 3,
+  "reopen_rate": 0.222,
+  "sentiment": 0.312,
+  "csat": 4.36,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.024,
+  "days_since_exec_touch": 14,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Insights and Reporting": [
+    1,
+    6,
+    3,
+    0,
+    5,
+    2
+   ],
+   "Publishing": [
+    3,
+    7,
+    2,
+    5,
+    3,
+    2
+   ],
+   "Social Listening": [
+    2,
+    4,
+    6,
+    7,
+    4,
+    4
+   ],
+   "Care Console": [
+    4,
+    1,
+    3,
+    2,
+    1,
+    5
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.057,
+    "adoption": 0.0,
+    "voice": 0.007,
+    "disengagement": 0.023
+   },
+   "risk_score": 0.024,
+   "churn_probability": 0.019,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 7389,
+   "expansion": {
+    "score": 0.265,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-047",
+  "client": "lumora",
+  "name": "Ironleaf Health",
+  "segment": "Growth",
+  "region": "North America",
+  "arr": 447000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 178,
+  "seats_active": 173,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Publishing",
+   "Integrations and API",
+   "Care Console",
+   "Insights and Reporting",
+   "Social Listening"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   31,
+   31,
+   32,
+   29,
+   33,
+   31
+  ],
+  "tickets_90d": 93,
+  "escalations_90d": 10,
+  "sev1_90d": 1,
+  "reopen_rate": 0.19,
+  "sentiment": 0.409,
+  "csat": 4.44,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.143,
+  "days_since_exec_touch": 44,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Publishing": [
+    2,
+    3,
+    2,
+    6,
+    4,
+    2
+   ],
+   "Advanced Insights": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Integrations and API": [
+    2,
+    1,
+    0,
+    4,
+    1,
+    1
+   ],
+   "Insights and Reporting": [
+    2,
+    4,
+    7,
+    1,
+    2,
+    0
+   ],
+   "Social Listening": [
+    4,
+    2,
+    2,
+    1,
+    2,
+    1
+   ],
+   "Care Console": [
+    1,
+    2,
+    2,
+    3,
+    5,
+    4
+   ],
+   "Conversational AI Bots": [
+    0,
+    1,
+    1,
+    1,
+    2,
+    4
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.123,
+    "adoption": 0.0,
+    "voice": 0.0,
+    "disengagement": 0.073
+   },
+   "risk_score": 0.051,
+   "churn_probability": 0.027,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 12093,
+   "expansion": {
+    "score": 0.5,
+    "seat_trigger": true,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 67050
+   },
+   "expansion_weighted": 19571
+  }
+ },
+ {
+  "id": "LU-048",
+  "client": "lumora",
+  "name": "Alderbrook Retail",
+  "segment": "Growth",
+  "region": "North America",
+  "arr": 407000,
+  "archetype": "healthy",
+  "seats_licensed": 162,
+  "seats_active": 104,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Care Console",
+   "Insights and Reporting",
+   "Social Listening",
+   "Publishing"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   42,
+   40,
+   42,
+   38,
+   46,
+   42
+  ],
+  "tickets_90d": 126,
+  "escalations_90d": 15,
+  "sev1_90d": 5,
+  "reopen_rate": 0.159,
+  "sentiment": 0.357,
+  "csat": 4.33,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.073,
+  "days_since_exec_touch": 41,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Care Console": [
+    7,
+    2,
+    3,
+    2,
+    5,
+    3
+   ],
+   "Insights and Reporting": [
+    5,
+    5,
+    3,
+    0,
+    1,
+    3
+   ],
+   "Social Listening": [
+    4,
+    1,
+    2,
+    8,
+    3,
+    4
+   ],
+   "Conversational AI Bots": [
+    2,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "Integrations and API": [
+    5,
+    7,
+    2,
+    1,
+    2,
+    4
+   ],
+   "Publishing": [
+    1,
+    2,
+    8,
+    7,
+    3,
+    4
+   ],
+   "Survey and VoC": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.213,
+    "adoption": 0.13,
+    "voice": 0.012,
+    "disengagement": 0.068
+   },
+   "risk_score": 0.113,
+   "churn_probability": 0.055,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 22366,
+   "expansion": {
+    "score": 0.15,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-049",
+  "client": "lumora",
+  "name": "Brightwater Bank",
+  "segment": "Growth",
+  "region": "North America",
+  "arr": 222000,
+  "archetype": "healthy",
+  "seats_licensed": 88,
+  "seats_active": 72,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Integrations and API",
+   "Publishing",
+   "Social Listening",
+   "Care Console"
+  ],
+  "addons_licensed": [
+   "Survey and VoC",
+   "Conversational AI Bots"
+  ],
+  "tickets_monthly": [
+   20,
+   21,
+   20,
+   19,
+   21,
+   24
+  ],
+  "tickets_90d": 64,
+  "escalations_90d": 6,
+  "sev1_90d": 1,
+  "reopen_rate": 0.167,
+  "sentiment": 0.359,
+  "csat": 4.52,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.1,
+  "days_since_exec_touch": 54,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Insights and Reporting": [
+    3,
+    0,
+    2,
+    2,
+    1,
+    2
+   ],
+   "Care Console": [
+    4,
+    0,
+    3,
+    0,
+    3,
+    2
+   ],
+   "Publishing": [
+    1,
+    2,
+    2,
+    3,
+    1,
+    4
+   ],
+   "Social Listening": [
+    4,
+    1,
+    2,
+    2,
+    2,
+    1
+   ],
+   "Integrations and API": [
+    0,
+    2,
+    0,
+    2,
+    1,
+    2
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.042,
+    "adoption": 0.0,
+    "voice": 0.0,
+    "disengagement": 0.09
+   },
+   "risk_score": 0.031,
+   "churn_probability": 0.021,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 4708,
+   "expansion": {
+    "score": 0.426,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-050",
+  "client": "lumora",
+  "name": "Dunmore Telecom",
+  "segment": "Enterprise",
+  "region": "North America",
+  "arr": 211000,
+  "archetype": "drifting",
+  "seats_licensed": 84,
+  "seats_active": 40,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Social Listening",
+   "Care Console"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   18,
+   19,
+   15,
+   14,
+   10,
+   8
+  ],
+  "tickets_90d": 32,
+  "escalations_90d": 2,
+  "sev1_90d": 1,
+  "reopen_rate": 0.154,
+  "sentiment": 0.344,
+  "csat": 4.43,
+  "churn_mentions_90d": 1,
+  "usage_trend": -0.247,
+  "days_since_exec_touch": 162,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Social Listening": [
+    3,
+    3,
+    3,
+    2,
+    2,
+    2
+   ],
+   "Care Console": [
+    3,
+    2,
+    2,
+    1,
+    0,
+    1
+   ],
+   "Publishing": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.023,
+    "adoption": 0.489,
+    "voice": 0.05,
+    "disengagement": 0.553
+   },
+   "risk_score": 0.252,
+   "churn_probability": 0.236,
+   "band": "amber",
+   "primary_driver": "adoption",
+   "arr_at_risk": 49834,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-051",
+  "client": "lumora",
+  "name": "Ironleaf Apparel",
+  "segment": "Enterprise",
+  "region": "EMEA",
+  "arr": 242000,
+  "archetype": "healthy",
+  "seats_licensed": 96,
+  "seats_active": 77,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Social Listening",
+   "Integrations and API",
+   "Insights and Reporting"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   17,
+   20,
+   19,
+   20,
+   20,
+   18
+  ],
+  "tickets_90d": 58,
+  "escalations_90d": 5,
+  "sev1_90d": 0,
+  "reopen_rate": 0.143,
+  "sentiment": 0.397,
+  "csat": 4.45,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.025,
+  "days_since_exec_touch": 27,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Social Listening": [
+    3,
+    3,
+    1,
+    2,
+    2,
+    1
+   ],
+   "Publishing": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Integrations and API": [
+    1,
+    3,
+    2,
+    0,
+    2,
+    1
+   ],
+   "Insights and Reporting": [
+    1,
+    3,
+    3,
+    3,
+    1,
+    4
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "Care Console": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.011,
+    "adoption": 0.0,
+    "voice": 0.0,
+    "disengagement": 0.081
+   },
+   "risk_score": 0.02,
+   "churn_probability": 0.019,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 4505,
+   "expansion": {
+    "score": 0.238,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-052",
+  "client": "lumora",
+  "name": "Umberfield Retail",
+  "segment": "Strategic",
+  "region": "APAC",
+  "arr": 412000,
+  "archetype": "healthy",
+  "seats_licensed": 164,
+  "seats_active": 103,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Social Listening",
+   "Integrations and API",
+   "Publishing",
+   "Care Console"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   35,
+   37,
+   38,
+   34,
+   37,
+   30
+  ],
+  "tickets_90d": 101,
+  "escalations_90d": 14,
+  "sev1_90d": 4,
+  "reopen_rate": 0.097,
+  "sentiment": 0.267,
+  "csat": 4.32,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.068,
+  "days_since_exec_touch": 51,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Integrations and API": [
+    4,
+    2,
+    2,
+    1,
+    1,
+    4
+   ],
+   "Insights and Reporting": [
+    5,
+    4,
+    5,
+    4,
+    2,
+    1
+   ],
+   "Publishing": [
+    3,
+    5,
+    1,
+    2,
+    3,
+    1
+   ],
+   "Social Listening": [
+    2,
+    6,
+    3,
+    1,
+    1,
+    2
+   ],
+   "Care Console": [
+    0,
+    3,
+    3,
+    3,
+    3,
+    2
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    2
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.291,
+    "adoption": 0.146,
+    "voice": 0.013,
+    "disengagement": 0.085
+   },
+   "risk_score": 0.144,
+   "churn_probability": 0.078,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 32159,
+   "expansion": {
+    "score": 0.15,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-053",
+  "client": "lumora",
+  "name": "Granite Hotels",
+  "segment": "Growth",
+  "region": "North America",
+  "arr": 273000,
+  "archetype": "low_adoption",
+  "seats_licensed": 109,
+  "seats_active": 32,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Social Listening",
+   "Publishing"
+  ],
+  "addons_licensed": [
+   "Survey and VoC",
+   "Advanced Insights"
+  ],
+  "tickets_monthly": [
+   29,
+   31,
+   30,
+   30,
+   26,
+   27
+  ],
+  "tickets_90d": 83,
+  "escalations_90d": 7,
+  "sev1_90d": 2,
+  "reopen_rate": 0.19,
+  "sentiment": 0.506,
+  "csat": 4.28,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.062,
+  "days_since_exec_touch": 21,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Social Listening": [
+    9,
+    5,
+    7,
+    8,
+    6,
+    2
+   ],
+   "Publishing": [
+    5,
+    13,
+    6,
+    2,
+    4,
+    6
+   ],
+   "Care Console": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Survey and VoC": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Integrations and API": [
+    0,
+    2,
+    0,
+    2,
+    0,
+    1
+   ],
+   "Insights and Reporting": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    0,
+    0,
+    0,
+    2,
+    1,
+    0
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.035,
+    "adoption": 0.708,
+    "voice": 0.02,
+    "disengagement": 0.124
+   },
+   "risk_score": 0.217,
+   "churn_probability": 0.169,
+   "band": "amber",
+   "primary_driver": "adoption",
+   "arr_at_risk": 46077,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-054",
+  "client": "lumora",
+  "name": "Oakridge Motors",
+  "segment": "Strategic",
+  "region": "North America",
+  "arr": 1131000,
+  "archetype": "healthy",
+  "seats_licensed": 452,
+  "seats_active": 325,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Social Listening",
+   "Insights and Reporting",
+   "Integrations and API",
+   "Publishing"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   99,
+   99,
+   84,
+   99,
+   87,
+   94
+  ],
+  "tickets_90d": 280,
+  "escalations_90d": 28,
+  "sev1_90d": 11,
+  "reopen_rate": 0.09,
+  "sentiment": 0.393,
+  "csat": 4.28,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.062,
+  "days_since_exec_touch": 55,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Insights and Reporting": [
+    11,
+    7,
+    9,
+    7,
+    9,
+    8
+   ],
+   "Social Listening": [
+    10,
+    13,
+    10,
+    10,
+    5,
+    12
+   ],
+   "Publishing": [
+    14,
+    12,
+    9,
+    9,
+    11,
+    11
+   ],
+   "Advanced Insights": [
+    2,
+    1,
+    1,
+    2,
+    1,
+    0
+   ],
+   "Conversational AI Bots": [
+    2,
+    3,
+    0,
+    0,
+    1,
+    4
+   ],
+   "Integrations and API": [
+    10,
+    12,
+    3,
+    8,
+    13,
+    9
+   ],
+   "Survey and VoC": [
+    1,
+    0,
+    0,
+    2,
+    0,
+    1
+   ],
+   "Care Console": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.096,
+    "adoption": 0.037,
+    "voice": 0.02,
+    "disengagement": 0.092
+   },
+   "risk_score": 0.062,
+   "churn_probability": 0.03,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 34419,
+   "expansion": {
+    "score": 0.119,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-055",
+  "client": "lumora",
+  "name": "Kingsmere Retail",
+  "segment": "Strategic",
+  "region": "EMEA",
+  "arr": 199000,
+  "archetype": "escalation_hit",
+  "seats_licensed": 79,
+  "seats_active": 49,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Publishing",
+   "Insights and Reporting",
+   "Social Listening",
+   "Care Console",
+   "Integrations and API"
+  ],
+  "addons_licensed": [
+   "Survey and VoC"
+  ],
+  "tickets_monthly": [
+   28,
+   25,
+   31,
+   36,
+   32,
+   32
+  ],
+  "tickets_90d": 100,
+  "escalations_90d": 26,
+  "sev1_90d": 7,
+  "reopen_rate": 0.525,
+  "sentiment": -0.17,
+  "csat": 3.73,
+  "churn_mentions_90d": 4,
+  "usage_trend": -0.064,
+  "days_since_exec_touch": 26,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Integrations and API": [
+    1,
+    3,
+    3,
+    1,
+    1,
+    1
+   ],
+   "Social Listening": [
+    2,
+    3,
+    3,
+    0,
+    2,
+    1
+   ],
+   "Insights and Reporting": [
+    1,
+    1,
+    6,
+    2,
+    2,
+    0
+   ],
+   "Care Console": [
+    4,
+    0,
+    3,
+    3,
+    3,
+    2
+   ],
+   "Publishing": [
+    2,
+    2,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Conversational AI Bots": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.95,
+    "adoption": 0.156,
+    "voice": 0.543,
+    "disengagement": 0.135
+   },
+   "risk_score": 0.487,
+   "churn_probability": 0.837,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 166650,
+   "expansion": {
+    "score": 0.15,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-056",
+  "client": "lumora",
+  "name": "Yarrowby Bank",
+  "segment": "Enterprise",
+  "region": "APAC",
+  "arr": 171000,
+  "archetype": "unhappy_voice",
+  "seats_licensed": 68,
+  "seats_active": 50,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Care Console",
+   "Integrations and API",
+   "Publishing",
+   "Social Listening",
+   "Insights and Reporting"
+  ],
+  "addons_licensed": [
+   "Conversational AI Bots"
+  ],
+  "tickets_monthly": [
+   26,
+   27,
+   27,
+   24,
+   24,
+   25
+  ],
+  "tickets_90d": 73,
+  "escalations_90d": 10,
+  "sev1_90d": 4,
+  "reopen_rate": 0.087,
+  "sentiment": -0.096,
+  "csat": 3.41,
+  "churn_mentions_90d": 3,
+  "usage_trend": -0.114,
+  "days_since_exec_touch": 42,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Publishing": [
+    3,
+    4,
+    4,
+    1,
+    1,
+    2
+   ],
+   "Integrations and API": [
+    3,
+    2,
+    1,
+    3,
+    0,
+    2
+   ],
+   "Insights and Reporting": [
+    3,
+    2,
+    4,
+    0,
+    1,
+    5
+   ],
+   "Social Listening": [
+    0,
+    3,
+    3,
+    2,
+    2,
+    1
+   ],
+   "Care Console": [
+    0,
+    1,
+    0,
+    0,
+    2,
+    2
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.359,
+    "adoption": 0.018,
+    "voice": 0.5,
+    "disengagement": 0.233
+   },
+   "risk_score": 0.284,
+   "churn_probability": 0.311,
+   "band": "amber",
+   "primary_driver": "voice",
+   "arr_at_risk": 53155,
+   "expansion": {
+    "score": 0.232,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-057",
+  "client": "lumora",
+  "name": "Alderbrook Bank",
+  "segment": "Strategic",
+  "region": "North America",
+  "arr": 477000,
+  "archetype": "healthy",
+  "seats_licensed": 190,
+  "seats_active": 144,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Publishing",
+   "Integrations and API",
+   "Care Console",
+   "Social Listening",
+   "Insights and Reporting"
+  ],
+  "addons_licensed": [
+   "Advanced Insights"
+  ],
+  "tickets_monthly": [
+   35,
+   31,
+   35,
+   38,
+   40,
+   39
+  ],
+  "tickets_90d": 117,
+  "escalations_90d": 9,
+  "sev1_90d": 2,
+  "reopen_rate": 0.081,
+  "sentiment": 0.436,
+  "csat": 4.49,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.026,
+  "days_since_exec_touch": 30,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Advanced Insights": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "Care Console": [
+    3,
+    6,
+    1,
+    2,
+    2,
+    3
+   ],
+   "Insights and Reporting": [
+    3,
+    0,
+    2,
+    0,
+    3,
+    6
+   ],
+   "Publishing": [
+    4,
+    4,
+    4,
+    6,
+    3,
+    3
+   ],
+   "Integrations and API": [
+    2,
+    0,
+    6,
+    2,
+    3,
+    2
+   ],
+   "Social Listening": [
+    1,
+    4,
+    3,
+    5,
+    1,
+    5
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.0,
+    "voice": 0.0,
+    "disengagement": 0.087
+   },
+   "risk_score": 0.017,
+   "churn_probability": 0.018,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 8657,
+   "expansion": {
+    "score": 0.285,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-058",
+  "client": "lumora",
+  "name": "Copperfield Hotels",
+  "segment": "Enterprise",
+  "region": "LATAM",
+  "arr": 684000,
+  "archetype": "escalation_hit",
+  "seats_licensed": 273,
+  "seats_active": 164,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Social Listening",
+   "Insights and Reporting",
+   "Care Console",
+   "Publishing"
+  ],
+  "addons_licensed": [
+   "Conversational AI Bots"
+  ],
+  "tickets_monthly": [
+   77,
+   74,
+   79,
+   99,
+   70,
+   103
+  ],
+  "tickets_90d": 272,
+  "escalations_90d": 57,
+  "sev1_90d": 26,
+  "reopen_rate": 0.414,
+  "sentiment": -0.235,
+  "csat": 3.63,
+  "churn_mentions_90d": 11,
+  "usage_trend": -0.107,
+  "days_since_exec_touch": 49,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Insights and Reporting": [
+    6,
+    7,
+    6,
+    7,
+    7,
+    3
+   ],
+   "Integrations and API": [
+    8,
+    9,
+    0,
+    4,
+    2,
+    3
+   ],
+   "Care Console": [
+    8,
+    9,
+    8,
+    10,
+    3,
+    7
+   ],
+   "Publishing": [
+    6,
+    5,
+    10,
+    5,
+    3,
+    7
+   ],
+   "Social Listening": [
+    7,
+    10,
+    3,
+    5,
+    2,
+    4
+   ],
+   "Conversational AI Bots": [
+    1,
+    1,
+    0,
+    2,
+    0,
+    1
+   ],
+   "Advanced Insights": [
+    0,
+    1,
+    2,
+    1,
+    0,
+    0
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    3,
+    1,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.995,
+    "adoption": 0.179,
+    "voice": 0.6,
+    "disengagement": 0.235
+   },
+   "risk_score": 0.54,
+   "churn_probability": 0.907,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 620651,
+   "expansion": {
+    "score": 0.15,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-059",
+  "client": "lumora",
+  "name": "Ironleaf Insurance",
+  "segment": "Growth",
+  "region": "North America",
+  "arr": 413000,
+  "archetype": "healthy",
+  "seats_licensed": 165,
+  "seats_active": 106,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Insights and Reporting",
+   "Social Listening",
+   "Publishing",
+   "Care Console"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   37,
+   39,
+   35,
+   42,
+   45,
+   39
+  ],
+  "tickets_90d": 126,
+  "escalations_90d": 8,
+  "sev1_90d": 2,
+  "reopen_rate": 0.108,
+  "sentiment": 0.373,
+  "csat": 4.0,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.063,
+  "days_since_exec_touch": 66,
+  "champion_left": true,
+  "howto_by_use_case": {
+   "Social Listening": [
+    5,
+    4,
+    5,
+    3,
+    5,
+    5
+   ],
+   "Publishing": [
+    3,
+    1,
+    3,
+    1,
+    3,
+    3
+   ],
+   "Advanced Insights": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "Insights and Reporting": [
+    2,
+    3,
+    0,
+    3,
+    5,
+    5
+   ],
+   "Care Console": [
+    3,
+    3,
+    3,
+    1,
+    7,
+    6
+   ],
+   "Conversational AI Bots": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.129,
+    "voice": 0.067,
+    "disengagement": 0.41
+   },
+   "risk_score": 0.131,
+   "churn_probability": 0.067,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 27800,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "LU-060",
+  "client": "lumora",
+  "name": "Brightwater Insurance",
+  "segment": "Growth",
+  "region": "LATAM",
+  "arr": 495000,
+  "archetype": "healthy",
+  "seats_licensed": 198,
+  "seats_active": 123,
+  "modules_licensed": [
+   "Social Listening",
+   "Publishing",
+   "Care Console",
+   "Insights and Reporting",
+   "Integrations and API"
+  ],
+  "modules_used": [
+   "Integrations and API",
+   "Social Listening",
+   "Publishing"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   57,
+   54,
+   58,
+   52,
+   53,
+   57
+  ],
+  "tickets_90d": 162,
+  "escalations_90d": 13,
+  "sev1_90d": 1,
+  "reopen_rate": 0.171,
+  "sentiment": 0.457,
+  "csat": 4.11,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.054,
+  "days_since_exec_touch": 23,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Publishing": [
+    5,
+    6,
+    7,
+    7,
+    8,
+    7
+   ],
+   "Social Listening": [
+    9,
+    5,
+    7,
+    9,
+    6,
+    7
+   ],
+   "Integrations and API": [
+    12,
+    6,
+    3,
+    9,
+    9,
+    9
+   ],
+   "Conversational AI Bots": [
+    1,
+    2,
+    1,
+    1,
+    0,
+    2
+   ],
+   "Advanced Insights": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Insights and Reporting": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    1
+   ],
+   "Survey and VoC": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.026,
+    "adoption": 0.155,
+    "voice": 0.048,
+    "disengagement": 0.038
+   },
+   "risk_score": 0.066,
+   "churn_probability": 0.032,
+   "band": "green",
+   "primary_driver": "adoption",
+   "arr_at_risk": 15870,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-001",
+  "client": "streamhaus",
+  "name": "Silverline Mobile",
+  "segment": "Device Partner",
+  "region": "LATAM",
+  "arr": 541000,
+  "archetype": "low_adoption",
+  "seats_licensed": 90,
+  "seats_active": 32,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Analytics API"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   76,
+   71,
+   64,
+   68,
+   77,
+   69
+  ],
+  "tickets_90d": 214,
+  "escalations_90d": 28,
+  "sev1_90d": 6,
+  "reopen_rate": 0.095,
+  "sentiment": 0.393,
+  "csat": 4.36,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.081,
+  "days_since_exec_touch": 18,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Analytics API": [
+    30,
+    27,
+    26,
+    22,
+    25,
+    28
+   ],
+   "Live Events": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Ad Manager": [
+    1,
+    3,
+    0,
+    0,
+    1,
+    0
+   ],
+   "Partner Billing": [
+    1,
+    0,
+    0,
+    2,
+    0,
+    2
+   ],
+   "Interactive Formats": [
+    0,
+    1,
+    0,
+    0,
+    2,
+    0
+   ],
+   "Content Delivery": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "Device Certification": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "Ad Measurement Plus": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.204,
+    "adoption": 0.793,
+    "voice": 0.007,
+    "disengagement": 0.146
+   },
+   "risk_score": 0.29,
+   "churn_probability": 0.328,
+   "band": "amber",
+   "primary_driver": "adoption",
+   "arr_at_risk": 177698,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-002",
+  "client": "streamhaus",
+  "name": "Driftwood Cable",
+  "segment": "Device Partner",
+  "region": "APAC",
+  "arr": 370000,
+  "archetype": "healthy",
+  "seats_licensed": 61,
+  "seats_active": 49,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Device Certification",
+   "Content Delivery",
+   "Partner Billing",
+   "Analytics API",
+   "Ad Manager"
+  ],
+  "addons_licensed": [
+   "Interactive Formats",
+   "Live Events"
+  ],
+  "tickets_monthly": [
+   86,
+   79,
+   75,
+   77,
+   79,
+   90
+  ],
+  "tickets_90d": 246,
+  "escalations_90d": 17,
+  "sev1_90d": 6,
+  "reopen_rate": 0.1,
+  "sentiment": 0.378,
+  "csat": 4.31,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.049,
+  "days_since_exec_touch": 37,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Content Delivery": [
+    10,
+    9,
+    4,
+    5,
+    7,
+    4
+   ],
+   "Device Certification": [
+    7,
+    3,
+    15,
+    5,
+    7,
+    7
+   ],
+   "Partner Billing": [
+    6,
+    7,
+    8,
+    9,
+    6,
+    8
+   ],
+   "Ad Manager": [
+    5,
+    7,
+    5,
+    8,
+    11,
+    5
+   ],
+   "Interactive Formats": [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Analytics API": [
+    4,
+    11,
+    6,
+    7,
+    9,
+    9
+   ],
+   "Ad Measurement Plus": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Live Events": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    3
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.0,
+    "voice": 0.015,
+    "disengagement": 0.132
+   },
+   "risk_score": 0.03,
+   "churn_probability": 0.021,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 7793,
+   "expansion": {
+    "score": 0.391,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-003",
+  "client": "streamhaus",
+  "name": "Vantor Mobile",
+  "segment": "Device Partner",
+  "region": "APAC",
+  "arr": 568000,
+  "archetype": "healthy",
+  "seats_licensed": 94,
+  "seats_active": 69,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Content Delivery",
+   "Partner Billing",
+   "Device Certification"
+  ],
+  "addons_licensed": [
+   "Interactive Formats",
+   "Live Events"
+  ],
+  "tickets_monthly": [
+   113,
+   106,
+   114,
+   107,
+   118,
+   129
+  ],
+  "tickets_90d": 354,
+  "escalations_90d": 31,
+  "sev1_90d": 12,
+  "reopen_rate": 0.136,
+  "sentiment": 0.381,
+  "csat": 4.29,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.035,
+  "days_since_exec_touch": 45,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Partner Billing": [
+    15,
+    10,
+    9,
+    15,
+    23,
+    22
+   ],
+   "Content Delivery": [
+    15,
+    14,
+    15,
+    13,
+    14,
+    18
+   ],
+   "Interactive Formats": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    1
+   ],
+   "Device Certification": [
+    16,
+    12,
+    20,
+    18,
+    10,
+    24
+   ],
+   "Analytics API": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Ad Measurement Plus": [
+    2,
+    2,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Live Events": [
+    2,
+    0,
+    1,
+    0,
+    2,
+    0
+   ],
+   "Ad Manager": [
+    0,
+    1,
+    1,
+    2,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.027,
+    "adoption": 0.019,
+    "voice": 0.018,
+    "disengagement": 0.125
+   },
+   "risk_score": 0.043,
+   "churn_probability": 0.024,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 13858,
+   "expansion": {
+    "score": 0.079,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-004",
+  "client": "streamhaus",
+  "name": "Fernhill Studios",
+  "segment": "Device Partner",
+  "region": "North America",
+  "arr": 440000,
+  "archetype": "healthy",
+  "seats_licensed": 73,
+  "seats_active": 55,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Device Certification",
+   "Analytics API",
+   "Ad Manager",
+   "Content Delivery",
+   "Partner Billing"
+  ],
+  "addons_licensed": [
+   "Interactive Formats"
+  ],
+  "tickets_monthly": [
+   113,
+   103,
+   100,
+   102,
+   89,
+   92
+  ],
+  "tickets_90d": 283,
+  "escalations_90d": 25,
+  "sev1_90d": 10,
+  "reopen_rate": 0.124,
+  "sentiment": 0.364,
+  "csat": 4.27,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.013,
+  "days_since_exec_touch": 36,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Content Delivery": [
+    10,
+    11,
+    7,
+    7,
+    3,
+    9
+   ],
+   "Device Certification": [
+    7,
+    5,
+    1,
+    8,
+    6,
+    7
+   ],
+   "Partner Billing": [
+    11,
+    6,
+    11,
+    12,
+    10,
+    3
+   ],
+   "Live Events": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    2
+   ],
+   "Ad Manager": [
+    9,
+    5,
+    2,
+    10,
+    9,
+    5
+   ],
+   "Analytics API": [
+    11,
+    6,
+    7,
+    6,
+    9,
+    4
+   ],
+   "Interactive Formats": [
+    1,
+    2,
+    0,
+    0,
+    0,
+    2
+   ],
+   "Ad Measurement Plus": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.029,
+    "adoption": 0.0,
+    "voice": 0.022,
+    "disengagement": 0.079
+   },
+   "risk_score": 0.03,
+   "churn_probability": 0.021,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 9229,
+   "expansion": {
+    "score": 0.275,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-005",
+  "client": "streamhaus",
+  "name": "Glenhaven Ads",
+  "segment": "Telco Bundle Partner",
+  "region": "EMEA",
+  "arr": 347000,
+  "archetype": "healthy",
+  "seats_licensed": 57,
+  "seats_active": 37,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Partner Billing",
+   "Analytics API",
+   "Device Certification",
+   "Content Delivery"
+  ],
+  "addons_licensed": [
+   "Live Events",
+   "Ad Measurement Plus"
+  ],
+  "tickets_monthly": [
+   51,
+   49,
+   56,
+   54,
+   51,
+   46
+  ],
+  "tickets_90d": 151,
+  "escalations_90d": 12,
+  "sev1_90d": 3,
+  "reopen_rate": 0.194,
+  "sentiment": 0.417,
+  "csat": 4.28,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.026,
+  "days_since_exec_touch": 24,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Ad Manager": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "Device Certification": [
+    5,
+    2,
+    6,
+    8,
+    10,
+    5
+   ],
+   "Partner Billing": [
+    3,
+    5,
+    7,
+    10,
+    7,
+    3
+   ],
+   "Analytics API": [
+    7,
+    9,
+    4,
+    4,
+    4,
+    5
+   ],
+   "Content Delivery": [
+    4,
+    5,
+    4,
+    5,
+    9,
+    4
+   ],
+   "Ad Measurement Plus": [
+    2,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Live Events": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.037,
+    "adoption": 0.121,
+    "voice": 0.02,
+    "disengagement": 0.04
+   },
+   "risk_score": 0.054,
+   "churn_probability": 0.028,
+   "band": "green",
+   "primary_driver": "adoption",
+   "arr_at_risk": 9711,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-006",
+  "client": "streamhaus",
+  "name": "Yarrowby Ads",
+  "segment": "Device Partner",
+  "region": "LATAM",
+  "arr": 330000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 55,
+  "seats_active": 53,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Analytics API",
+   "Content Delivery",
+   "Ad Manager",
+   "Device Certification",
+   "Partner Billing"
+  ],
+  "addons_licensed": [
+   "Ad Measurement Plus",
+   "Interactive Formats"
+  ],
+  "tickets_monthly": [
+   90,
+   85,
+   86,
+   79,
+   87,
+   80
+  ],
+  "tickets_90d": 246,
+  "escalations_90d": 19,
+  "sev1_90d": 5,
+  "reopen_rate": 0.154,
+  "sentiment": 0.443,
+  "csat": 4.17,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.104,
+  "days_since_exec_touch": 56,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Partner Billing": [
+    6,
+    5,
+    9,
+    4,
+    6,
+    7
+   ],
+   "Ad Measurement Plus": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Ad Manager": [
+    6,
+    4,
+    5,
+    3,
+    7,
+    4
+   ],
+   "Device Certification": [
+    7,
+    6,
+    8,
+    2,
+    3,
+    6
+   ],
+   "Live Events": [
+    3,
+    6,
+    1,
+    2,
+    2,
+    12
+   ],
+   "Analytics API": [
+    3,
+    8,
+    10,
+    8,
+    11,
+    7
+   ],
+   "Content Delivery": [
+    5,
+    8,
+    8,
+    8,
+    6,
+    5
+   ],
+   "Interactive Formats": [
+    1,
+    0,
+    2,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.017,
+    "adoption": 0.0,
+    "voice": 0.038,
+    "disengagement": 0.093
+   },
+   "risk_score": 0.033,
+   "churn_probability": 0.022,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 7222,
+   "expansion": {
+    "score": 1.0,
+    "seat_trigger": true,
+    "surges": [
+     {
+      "use_case": "Live Events",
+      "last_month": 12,
+      "baseline": 1.7,
+      "ratio": 7.2
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 115500
+   },
+   "expansion_weighted": 33892
+  }
+ },
+ {
+  "id": "ST-007",
+  "client": "streamhaus",
+  "name": "Yarrowby Mobile",
+  "segment": "Advertiser",
+  "region": "LATAM",
+  "arr": 759000,
+  "archetype": "low_adoption",
+  "seats_licensed": 126,
+  "seats_active": 30,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Ad Manager",
+   "Content Delivery"
+  ],
+  "addons_licensed": [
+   "Ad Measurement Plus"
+  ],
+  "tickets_monthly": [
+   135,
+   122,
+   136,
+   116,
+   127,
+   114
+  ],
+  "tickets_90d": 357,
+  "escalations_90d": 28,
+  "sev1_90d": 12,
+  "reopen_rate": 0.106,
+  "sentiment": 0.311,
+  "csat": 4.23,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.028,
+  "days_since_exec_touch": 17,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Ad Manager": [
+    27,
+    22,
+    26,
+    27,
+    27,
+    17
+   ],
+   "Content Delivery": [
+    26,
+    21,
+    28,
+    18,
+    25,
+    16
+   ],
+   "Live Events": [
+    1,
+    2,
+    0,
+    1,
+    1,
+    2
+   ],
+   "Interactive Formats": [
+    1,
+    0,
+    0,
+    0,
+    2,
+    1
+   ],
+   "Ad Measurement Plus": [
+    2,
+    3,
+    3,
+    0,
+    3,
+    0
+   ],
+   "Partner Billing": [
+    2,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "Analytics API": [
+    0,
+    1,
+    0,
+    0,
+    4,
+    1
+   ],
+   "Device Certification": [
+    0,
+    3,
+    1,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.018,
+    "adoption": 0.76,
+    "voice": 0.028,
+    "disengagement": 0.028
+   },
+   "risk_score": 0.208,
+   "churn_probability": 0.154,
+   "band": "amber",
+   "primary_driver": "adoption",
+   "arr_at_risk": 117045,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-008",
+  "client": "streamhaus",
+  "name": "Pinecrest Networks",
+  "segment": "Telco Bundle Partner",
+  "region": "LATAM",
+  "arr": 1334000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 222,
+  "seats_active": 212,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Content Delivery",
+   "Ad Manager",
+   "Analytics API",
+   "Device Certification",
+   "Partner Billing"
+  ],
+  "addons_licensed": [
+   "Interactive Formats"
+  ],
+  "tickets_monthly": [
+   136,
+   167,
+   146,
+   138,
+   153,
+   163
+  ],
+  "tickets_90d": 454,
+  "escalations_90d": 23,
+  "sev1_90d": 5,
+  "reopen_rate": 0.139,
+  "sentiment": 0.41,
+  "csat": 4.24,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.118,
+  "days_since_exec_touch": 29,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Partner Billing": [
+    19,
+    17,
+    6,
+    9,
+    12,
+    7
+   ],
+   "Device Certification": [
+    12,
+    13,
+    9,
+    8,
+    11,
+    7
+   ],
+   "Analytics API": [
+    14,
+    12,
+    14,
+    7,
+    15,
+    6
+   ],
+   "Content Delivery": [
+    6,
+    19,
+    9,
+    10,
+    13,
+    12
+   ],
+   "Live Events": [
+    5,
+    8,
+    8,
+    7,
+    8,
+    43
+   ],
+   "Ad Manager": [
+    9,
+    6,
+    16,
+    5,
+    8,
+    11
+   ],
+   "Ad Measurement Plus": [
+    1,
+    0,
+    0,
+    1,
+    2,
+    0
+   ],
+   "Interactive Formats": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.01,
+    "adoption": 0.0,
+    "voice": 0.027,
+    "disengagement": 0.048
+   },
+   "risk_score": 0.019,
+   "churn_probability": 0.019,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 24716,
+   "expansion": {
+    "score": 1.0,
+    "seat_trigger": true,
+    "surges": [
+     {
+      "use_case": "Live Events",
+      "last_month": 43,
+      "baseline": 7.7,
+      "ratio": 5.61
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 466900
+   },
+   "expansion_weighted": 137475
+  }
+ },
+ {
+  "id": "ST-009",
+  "client": "streamhaus",
+  "name": "Juniper Networks",
+  "segment": "Telco Bundle Partner",
+  "region": "APAC",
+  "arr": 240000,
+  "archetype": "healthy",
+  "seats_licensed": 40,
+  "seats_active": 27,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Content Delivery",
+   "Ad Manager",
+   "Device Certification",
+   "Partner Billing",
+   "Analytics API"
+  ],
+  "addons_licensed": [
+   "Live Events",
+   "Interactive Formats"
+  ],
+  "tickets_monthly": [
+   58,
+   56,
+   57,
+   62,
+   59,
+   63
+  ],
+  "tickets_90d": 184,
+  "escalations_90d": 18,
+  "sev1_90d": 5,
+  "reopen_rate": 0.14,
+  "sentiment": 0.462,
+  "csat": 4.09,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.004,
+  "days_since_exec_touch": 49,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Partner Billing": [
+    7,
+    5,
+    3,
+    9,
+    8,
+    1
+   ],
+   "Content Delivery": [
+    2,
+    2,
+    8,
+    2,
+    6,
+    5
+   ],
+   "Device Certification": [
+    5,
+    4,
+    7,
+    4,
+    6,
+    6
+   ],
+   "Analytics API": [
+    5,
+    3,
+    7,
+    6,
+    2,
+    4
+   ],
+   "Ad Manager": [
+    6,
+    6,
+    5,
+    9,
+    4,
+    3
+   ],
+   "Ad Measurement Plus": [
+    0,
+    2,
+    0,
+    1,
+    0,
+    1
+   ],
+   "Live Events": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.049,
+    "adoption": 0.09,
+    "voice": 0.052,
+    "disengagement": 0.087
+   },
+   "risk_score": 0.068,
+   "churn_probability": 0.033,
+   "band": "green",
+   "primary_driver": "adoption",
+   "arr_at_risk": 7838,
+   "expansion": {
+    "score": 0.15,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-010",
+  "client": "streamhaus",
+  "name": "Larkspur Mobile",
+  "segment": "Device Partner",
+  "region": "North America",
+  "arr": 1667000,
+  "archetype": "healthy",
+  "seats_licensed": 277,
+  "seats_active": 193,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Device Certification",
+   "Ad Manager",
+   "Partner Billing",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "addons_licensed": [
+   "Ad Measurement Plus"
+  ],
+  "tickets_monthly": [
+   218,
+   225,
+   227,
+   243,
+   255,
+   237
+  ],
+  "tickets_90d": 735,
+  "escalations_90d": 72,
+  "sev1_90d": 15,
+  "reopen_rate": 0.129,
+  "sentiment": 0.416,
+  "csat": 4.24,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.059,
+  "days_since_exec_touch": 49,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Device Certification": [
+    20,
+    17,
+    22,
+    22,
+    22,
+    23
+   ],
+   "Content Delivery": [
+    13,
+    16,
+    21,
+    22,
+    22,
+    16
+   ],
+   "Partner Billing": [
+    27,
+    17,
+    14,
+    14,
+    12,
+    18
+   ],
+   "Ad Manager": [
+    16,
+    19,
+    18,
+    15,
+    22,
+    21
+   ],
+   "Analytics API": [
+    13,
+    21,
+    21,
+    16,
+    16,
+    18
+   ],
+   "Interactive Formats": [
+    3,
+    0,
+    1,
+    2,
+    2,
+    1
+   ],
+   "Live Events": [
+    2,
+    0,
+    2,
+    4,
+    0,
+    9
+   ],
+   "Ad Measurement Plus": [
+    0,
+    2,
+    3,
+    1,
+    1,
+    2
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.044,
+    "adoption": 0.064,
+    "voice": 0.027,
+    "disengagement": 0.082
+   },
+   "risk_score": 0.052,
+   "churn_probability": 0.027,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 45525,
+   "expansion": {
+    "score": 0.65,
+    "seat_trigger": false,
+    "surges": [
+     {
+      "use_case": "Live Events",
+      "last_month": 9,
+      "baseline": 2.0,
+      "ratio": 4.5
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 333400
+   },
+   "expansion_weighted": 97289
+  }
+ },
+ {
+  "id": "ST-011",
+  "client": "streamhaus",
+  "name": "Vantor Broadband",
+  "segment": "Device Partner",
+  "region": "EMEA",
+  "arr": 452000,
+  "archetype": "healthy",
+  "seats_licensed": 75,
+  "seats_active": 55,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Ad Manager",
+   "Partner Billing",
+   "Analytics API"
+  ],
+  "addons_licensed": [
+   "Live Events"
+  ],
+  "tickets_monthly": [
+   84,
+   72,
+   72,
+   72,
+   78,
+   84
+  ],
+  "tickets_90d": 234,
+  "escalations_90d": 19,
+  "sev1_90d": 4,
+  "reopen_rate": 0.097,
+  "sentiment": 0.41,
+  "csat": 4.28,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.049,
+  "days_since_exec_touch": 43,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Ad Manager": [
+    13,
+    10,
+    11,
+    10,
+    4,
+    12
+   ],
+   "Live Events": [
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Analytics API": [
+    7,
+    8,
+    9,
+    15,
+    16,
+    10
+   ],
+   "Partner Billing": [
+    8,
+    10,
+    10,
+    3,
+    7,
+    12
+   ],
+   "Content Delivery": [
+    1,
+    1,
+    0,
+    0,
+    3,
+    0
+   ],
+   "Ad Measurement Plus": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   "Device Certification": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "Interactive Formats": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.02,
+    "voice": 0.02,
+    "disengagement": 0.072
+   },
+   "risk_score": 0.024,
+   "churn_probability": 0.02,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 8898,
+   "expansion": {
+    "score": 0.078,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-012",
+  "client": "streamhaus",
+  "name": "Tidewater Networks",
+  "segment": "Content Partner",
+  "region": "LATAM",
+  "arr": 427000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 71,
+  "seats_active": 67,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Content Delivery",
+   "Device Certification",
+   "Ad Manager",
+   "Partner Billing",
+   "Analytics API"
+  ],
+  "addons_licensed": [
+   "Ad Measurement Plus"
+  ],
+  "tickets_monthly": [
+   83,
+   61,
+   76,
+   82,
+   71,
+   78
+  ],
+  "tickets_90d": 231,
+  "escalations_90d": 16,
+  "sev1_90d": 3,
+  "reopen_rate": 0.102,
+  "sentiment": 0.472,
+  "csat": 4.27,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.055,
+  "days_since_exec_touch": 18,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Ad Manager": [
+    7,
+    2,
+    4,
+    9,
+    10,
+    9
+   ],
+   "Analytics API": [
+    6,
+    6,
+    8,
+    7,
+    1,
+    2
+   ],
+   "Content Delivery": [
+    4,
+    0,
+    3,
+    9,
+    10,
+    4
+   ],
+   "Interactive Formats": [
+    2,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Partner Billing": [
+    6,
+    2,
+    4,
+    5,
+    4,
+    7
+   ],
+   "Device Certification": [
+    9,
+    6,
+    9,
+    5,
+    5,
+    3
+   ],
+   "Live Events": [
+    2,
+    2,
+    3,
+    4,
+    4,
+    13
+   ],
+   "Ad Measurement Plus": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.0,
+    "voice": 0.022,
+    "disengagement": 0.03
+   },
+   "risk_score": 0.011,
+   "churn_probability": 0.017,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 7219,
+   "expansion": {
+    "score": 1.0,
+    "seat_trigger": true,
+    "surges": [
+     {
+      "use_case": "Live Events",
+      "last_month": 13,
+      "baseline": 3.7,
+      "ratio": 3.55
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 149450
+   },
+   "expansion_weighted": 44077
+  }
+ },
+ {
+  "id": "ST-013",
+  "client": "streamhaus",
+  "name": "Indigo Bay Studios",
+  "segment": "Content Partner",
+  "region": "LATAM",
+  "arr": 766000,
+  "archetype": "drifting",
+  "seats_licensed": 127,
+  "seats_active": 66,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Partner Billing",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "addons_licensed": [
+   "Ad Measurement Plus"
+  ],
+  "tickets_monthly": [
+   132,
+   115,
+   75,
+   64,
+   68,
+   46
+  ],
+  "tickets_90d": 178,
+  "escalations_90d": 22,
+  "sev1_90d": 11,
+  "reopen_rate": 0.088,
+  "sentiment": 0.27,
+  "csat": 4.18,
+  "churn_mentions_90d": 9,
+  "usage_trend": -0.436,
+  "days_since_exec_touch": 111,
+  "champion_left": true,
+  "howto_by_use_case": {
+   "Analytics API": [
+    20,
+    17,
+    8,
+    8,
+    11,
+    4
+   ],
+   "Partner Billing": [
+    12,
+    14,
+    5,
+    9,
+    9,
+    2
+   ],
+   "Content Delivery": [
+    17,
+    16,
+    12,
+    7,
+    12,
+    5
+   ],
+   "Ad Manager": [
+    1,
+    2,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Device Certification": [
+    2,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Ad Measurement Plus": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Interactive Formats": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Live Events": [
+    1,
+    0,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.327,
+    "adoption": 0.276,
+    "voice": 0.237,
+    "disengagement": 0.985
+   },
+   "risk_score": 0.423,
+   "churn_probability": 0.707,
+   "band": "red",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 541460,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-014",
+  "client": "streamhaus",
+  "name": "Willowmere Networks",
+  "segment": "Advertiser",
+  "region": "EMEA",
+  "arr": 705000,
+  "archetype": "healthy",
+  "seats_licensed": 117,
+  "seats_active": 97,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification"
+  ],
+  "addons_licensed": [
+   "Interactive Formats",
+   "Ad Measurement Plus"
+  ],
+  "tickets_monthly": [
+   114,
+   104,
+   90,
+   105,
+   107,
+   107
+  ],
+  "tickets_90d": 319,
+  "escalations_90d": 35,
+  "sev1_90d": 4,
+  "reopen_rate": 0.069,
+  "sentiment": 0.426,
+  "csat": 4.32,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.035,
+  "days_since_exec_touch": 15,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Device Certification": [
+    10,
+    13,
+    10,
+    13,
+    11,
+    16
+   ],
+   "Partner Billing": [
+    13,
+    13,
+    11,
+    17,
+    12,
+    11
+   ],
+   "Ad Manager": [
+    18,
+    9,
+    13,
+    15,
+    18,
+    10
+   ],
+   "Live Events": [
+    1,
+    2,
+    0,
+    1,
+    2,
+    4
+   ],
+   "Analytics API": [
+    4,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "Content Delivery": [
+    2,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Interactive Formats": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "Ad Measurement Plus": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.099,
+    "adoption": 0.0,
+    "voice": 0.013,
+    "disengagement": 0.075
+   },
+   "risk_score": 0.048,
+   "churn_probability": 0.026,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 18299,
+   "expansion": {
+    "score": 0.301,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-015",
+  "client": "streamhaus",
+  "name": "Zephyrine Media",
+  "segment": "Advertiser",
+  "region": "North America",
+  "arr": 632000,
+  "archetype": "escalation_hit",
+  "seats_licensed": 105,
+  "seats_active": 82,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Partner Billing",
+   "Content Delivery",
+   "Device Certification",
+   "Analytics API",
+   "Ad Manager"
+  ],
+  "addons_licensed": [
+   "Live Events"
+  ],
+  "tickets_monthly": [
+   95,
+   89,
+   89,
+   124,
+   102,
+   126
+  ],
+  "tickets_90d": 352,
+  "escalations_90d": 68,
+  "sev1_90d": 23,
+  "reopen_rate": 0.503,
+  "sentiment": -0.273,
+  "csat": 3.35,
+  "churn_mentions_90d": 25,
+  "usage_trend": -0.099,
+  "days_since_exec_touch": 38,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Ad Manager": [
+    11,
+    5,
+    12,
+    7,
+    10,
+    6
+   ],
+   "Device Certification": [
+    12,
+    10,
+    7,
+    3,
+    6,
+    4
+   ],
+   "Content Delivery": [
+    8,
+    7,
+    6,
+    3,
+    6,
+    5
+   ],
+   "Partner Billing": [
+    4,
+    10,
+    7,
+    6,
+    3,
+    9
+   ],
+   "Interactive Formats": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "Ad Measurement Plus": [
+    2,
+    1,
+    0,
+    3,
+    2,
+    3
+   ],
+   "Analytics API": [
+    4,
+    10,
+    10,
+    6,
+    4,
+    6
+   ],
+   "Live Events": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.843,
+    "adoption": 0.0,
+    "voice": 0.671,
+    "disengagement": 0.205
+   },
+   "risk_score": 0.461,
+   "churn_probability": 0.792,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 500512,
+   "expansion": {
+    "score": 0.339,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-016",
+  "client": "streamhaus",
+  "name": "Quarrystone Cable",
+  "segment": "Device Partner",
+  "region": "APAC",
+  "arr": 723000,
+  "archetype": "healthy",
+  "seats_licensed": 120,
+  "seats_active": 90,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Ad Manager",
+   "Device Certification",
+   "Partner Billing",
+   "Analytics API"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   120,
+   146,
+   137,
+   121,
+   120,
+   136
+  ],
+  "tickets_90d": 377,
+  "escalations_90d": 29,
+  "sev1_90d": 5,
+  "reopen_rate": 0.127,
+  "sentiment": 0.345,
+  "csat": 4.16,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.012,
+  "days_since_exec_touch": 38,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Live Events": [
+    1,
+    0,
+    1,
+    1,
+    0,
+    8
+   ],
+   "Device Certification": [
+    13,
+    15,
+    11,
+    12,
+    13,
+    10
+   ],
+   "Analytics API": [
+    14,
+    15,
+    10,
+    14,
+    10,
+    15
+   ],
+   "Ad Manager": [
+    7,
+    14,
+    7,
+    13,
+    12,
+    14
+   ],
+   "Partner Billing": [
+    16,
+    11,
+    20,
+    13,
+    18,
+    15
+   ],
+   "Content Delivery": [
+    1,
+    1,
+    0,
+    0,
+    3,
+    2
+   ],
+   "Interactive Formats": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "Ad Measurement Plus": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.004,
+    "adoption": 0.0,
+    "voice": 0.04,
+    "disengagement": 0.063
+   },
+   "risk_score": 0.024,
+   "churn_probability": 0.02,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 14130,
+   "expansion": {
+    "score": 0.692,
+    "seat_trigger": false,
+    "surges": [
+     {
+      "use_case": "Live Events",
+      "last_month": 8,
+      "baseline": 1.0,
+      "ratio": 8.0
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 144600
+   },
+   "expansion_weighted": 42532
+  }
+ },
+ {
+  "id": "ST-017",
+  "client": "streamhaus",
+  "name": "Larkspur Devices",
+  "segment": "Advertiser",
+  "region": "North America",
+  "arr": 553000,
+  "archetype": "healthy",
+  "seats_licensed": 92,
+  "seats_active": 59,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API",
+   "Partner Billing",
+   "Ad Manager"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   110,
+   97,
+   109,
+   114,
+   90,
+   127
+  ],
+  "tickets_90d": 331,
+  "escalations_90d": 26,
+  "sev1_90d": 6,
+  "reopen_rate": 0.15,
+  "sentiment": 0.347,
+  "csat": 4.39,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.097,
+  "days_since_exec_touch": 68,
+  "champion_left": true,
+  "howto_by_use_case": {
+   "Partner Billing": [
+    8,
+    9,
+    10,
+    12,
+    7,
+    8
+   ],
+   "Ad Manager": [
+    18,
+    11,
+    14,
+    14,
+    6,
+    11
+   ],
+   "Device Certification": [
+    12,
+    7,
+    15,
+    9,
+    8,
+    11
+   ],
+   "Content Delivery": [
+    6,
+    8,
+    10,
+    9,
+    7,
+    15
+   ],
+   "Ad Measurement Plus": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Analytics API": [
+    5,
+    8,
+    7,
+    5,
+    10,
+    13
+   ],
+   "Interactive Formats": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    2
+   ],
+   "Live Events": [
+    0,
+    1,
+    1,
+    1,
+    0,
+    4
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.015,
+    "adoption": 0.13,
+    "voice": 0.002,
+    "disengagement": 0.413
+   },
+   "risk_score": 0.12,
+   "churn_probability": 0.06,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 32988,
+   "expansion": {
+    "score": 0.15,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-018",
+  "client": "streamhaus",
+  "name": "Ember Broadband",
+  "segment": "Telco Bundle Partner",
+  "region": "APAC",
+  "arr": 439000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 73,
+  "seats_active": 69,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Partner Billing",
+   "Analytics API",
+   "Content Delivery",
+   "Ad Manager",
+   "Device Certification"
+  ],
+  "addons_licensed": [
+   "Live Events",
+   "Interactive Formats"
+  ],
+  "tickets_monthly": [
+   107,
+   112,
+   118,
+   121,
+   113,
+   110
+  ],
+  "tickets_90d": 344,
+  "escalations_90d": 25,
+  "sev1_90d": 5,
+  "reopen_rate": 0.143,
+  "sentiment": 0.392,
+  "csat": 4.28,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.151,
+  "days_since_exec_touch": 41,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Analytics API": [
+    10,
+    12,
+    16,
+    5,
+    10,
+    10
+   ],
+   "Partner Billing": [
+    10,
+    9,
+    5,
+    9,
+    9,
+    8
+   ],
+   "Ad Manager": [
+    6,
+    7,
+    5,
+    6,
+    7,
+    5
+   ],
+   "Content Delivery": [
+    12,
+    6,
+    9,
+    13,
+    8,
+    4
+   ],
+   "Ad Measurement Plus": [
+    6,
+    5,
+    7,
+    10,
+    1,
+    21
+   ],
+   "Device Certification": [
+    7,
+    7,
+    6,
+    13,
+    10,
+    9
+   ],
+   "Live Events": [
+    1,
+    1,
+    3,
+    0,
+    1,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.011,
+    "adoption": 0.0,
+    "voice": 0.02,
+    "disengagement": 0.068
+   },
+   "risk_score": 0.022,
+   "churn_probability": 0.019,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 8419,
+   "expansion": {
+    "score": 1.0,
+    "seat_trigger": true,
+    "surges": [
+     {
+      "use_case": "Ad Measurement Plus",
+      "last_month": 21,
+      "baseline": 6.0,
+      "ratio": 3.5
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 153650
+   },
+   "expansion_weighted": 45211
+  }
+ },
+ {
+  "id": "ST-019",
+  "client": "streamhaus",
+  "name": "Meridian Studios",
+  "segment": "Advertiser",
+  "region": "North America",
+  "arr": 1142000,
+  "archetype": "healthy",
+  "seats_licensed": 190,
+  "seats_active": 130,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Analytics API",
+   "Device Certification",
+   "Content Delivery"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   132,
+   133,
+   138,
+   143,
+   122,
+   145
+  ],
+  "tickets_90d": 410,
+  "escalations_90d": 30,
+  "sev1_90d": 7,
+  "reopen_rate": 0.052,
+  "sentiment": 0.366,
+  "csat": 4.21,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.09,
+  "days_since_exec_touch": 58,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Device Certification": [
+    20,
+    12,
+    21,
+    25,
+    17,
+    16
+   ],
+   "Analytics API": [
+    17,
+    13,
+    20,
+    16,
+    17,
+    14
+   ],
+   "Live Events": [
+    1,
+    2,
+    1,
+    2,
+    2,
+    3
+   ],
+   "Content Delivery": [
+    19,
+    19,
+    21,
+    16,
+    17,
+    19
+   ],
+   "Partner Billing": [
+    1,
+    1,
+    3,
+    0,
+    3,
+    1
+   ],
+   "Ad Manager": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    1
+   ],
+   "Ad Measurement Plus": [
+    1,
+    2,
+    1,
+    1,
+    1,
+    3
+   ],
+   "Interactive Formats": [
+    0,
+    3,
+    0,
+    3,
+    2,
+    4
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.079,
+    "voice": 0.032,
+    "disengagement": 0.097
+   },
+   "risk_score": 0.047,
+   "churn_probability": 0.026,
+   "band": "green",
+   "primary_driver": "adoption",
+   "arr_at_risk": 29323,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-020",
+  "client": "streamhaus",
+  "name": "Brightwater Media",
+  "segment": "Telco Bundle Partner",
+  "region": "LATAM",
+  "arr": 433000,
+  "archetype": "healthy",
+  "seats_licensed": 72,
+  "seats_active": 54,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Content Delivery",
+   "Analytics API",
+   "Partner Billing"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   59,
+   64,
+   67,
+   61,
+   71,
+   56
+  ],
+  "tickets_90d": 188,
+  "escalations_90d": 16,
+  "sev1_90d": 1,
+  "reopen_rate": 0.094,
+  "sentiment": 0.287,
+  "csat": 3.85,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.059,
+  "days_since_exec_touch": 21,
+  "champion_left": true,
+  "howto_by_use_case": {
+   "Analytics API": [
+    10,
+    5,
+    12,
+    9,
+    9,
+    6
+   ],
+   "Partner Billing": [
+    5,
+    9,
+    7,
+    6,
+    8,
+    7
+   ],
+   "Ad Manager": [
+    1,
+    1,
+    0,
+    2,
+    3,
+    0
+   ],
+   "Content Delivery": [
+    3,
+    9,
+    6,
+    8,
+    6,
+    9
+   ],
+   "Live Events": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    4
+   ],
+   "Ad Measurement Plus": [
+    0,
+    1,
+    2,
+    0,
+    0,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.0,
+    "voice": 0.092,
+    "disengagement": 0.335
+   },
+   "risk_score": 0.09,
+   "churn_probability": 0.042,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 18294,
+   "expansion": {
+    "score": 0.117,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-021",
+  "client": "streamhaus",
+  "name": "Juniper Devices",
+  "segment": "Device Partner",
+  "region": "LATAM",
+  "arr": 274000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 45,
+  "seats_active": 41,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Partner Billing",
+   "Analytics API",
+   "Ad Manager",
+   "Device Certification",
+   "Content Delivery"
+  ],
+  "addons_licensed": [
+   "Live Events"
+  ],
+  "tickets_monthly": [
+   83,
+   68,
+   70,
+   75,
+   72,
+   71
+  ],
+  "tickets_90d": 218,
+  "escalations_90d": 22,
+  "sev1_90d": 4,
+  "reopen_rate": 0.074,
+  "sentiment": 0.445,
+  "csat": 4.17,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.177,
+  "days_since_exec_touch": 74,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Device Certification": [
+    11,
+    6,
+    4,
+    8,
+    8,
+    3
+   ],
+   "Analytics API": [
+    9,
+    4,
+    6,
+    2,
+    8,
+    5
+   ],
+   "Content Delivery": [
+    4,
+    3,
+    8,
+    4,
+    9,
+    4
+   ],
+   "Ad Manager": [
+    9,
+    10,
+    5,
+    6,
+    4,
+    6
+   ],
+   "Partner Billing": [
+    3,
+    5,
+    6,
+    5,
+    4,
+    4
+   ],
+   "Interactive Formats": [
+    1,
+    0,
+    0,
+    1,
+    2,
+    0
+   ],
+   "Ad Measurement Plus": [
+    1,
+    3,
+    3,
+    7,
+    2,
+    16
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.055,
+    "adoption": 0.0,
+    "voice": 0.038,
+    "disengagement": 0.123
+   },
+   "risk_score": 0.051,
+   "churn_probability": 0.027,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 7341,
+   "expansion": {
+    "score": 1.0,
+    "seat_trigger": true,
+    "surges": [
+     {
+      "use_case": "Ad Measurement Plus",
+      "last_month": 16,
+      "baseline": 4.0,
+      "ratio": 4.0
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 95900
+   },
+   "expansion_weighted": 27999
+  }
+ },
+ {
+  "id": "ST-022",
+  "client": "streamhaus",
+  "name": "Brightwater Ads",
+  "segment": "Advertiser",
+  "region": "LATAM",
+  "arr": 640000,
+  "archetype": "expansion_ready",
+  "seats_licensed": 106,
+  "seats_active": 93,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Analytics API",
+   "Content Delivery",
+   "Ad Manager",
+   "Device Certification",
+   "Partner Billing"
+  ],
+  "addons_licensed": [
+   "Live Events"
+  ],
+  "tickets_monthly": [
+   76,
+   76,
+   75,
+   80,
+   81,
+   77
+  ],
+  "tickets_90d": 238,
+  "escalations_90d": 19,
+  "sev1_90d": 5,
+  "reopen_rate": 0.1,
+  "sentiment": 0.437,
+  "csat": 4.37,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.09,
+  "days_since_exec_touch": 60,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Ad Measurement Plus": [
+    5,
+    3,
+    6,
+    1,
+    2,
+    13
+   ],
+   "Analytics API": [
+    12,
+    7,
+    3,
+    8,
+    6,
+    5
+   ],
+   "Partner Billing": [
+    4,
+    2,
+    6,
+    6,
+    6,
+    2
+   ],
+   "Device Certification": [
+    8,
+    8,
+    9,
+    12,
+    10,
+    4
+   ],
+   "Ad Manager": [
+    7,
+    4,
+    8,
+    10,
+    5,
+    3
+   ],
+   "Content Delivery": [
+    7,
+    6,
+    4,
+    8,
+    6,
+    4
+   ],
+   "Live Events": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.0,
+    "voice": 0.005,
+    "disengagement": 0.1
+   },
+   "risk_score": 0.021,
+   "churn_probability": 0.019,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 12150,
+   "expansion": {
+    "score": 1.0,
+    "seat_trigger": true,
+    "surges": [
+     {
+      "use_case": "Ad Measurement Plus",
+      "last_month": 13,
+      "baseline": 3.0,
+      "ratio": 4.33
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 224000
+   },
+   "expansion_weighted": 65924
+  }
+ },
+ {
+  "id": "ST-023",
+  "client": "streamhaus",
+  "name": "Silverline Cable",
+  "segment": "Advertiser",
+  "region": "LATAM",
+  "arr": 263000,
+  "archetype": "escalation_hit",
+  "seats_licensed": 43,
+  "seats_active": 30,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Ad Manager",
+   "Partner Billing",
+   "Content Delivery",
+   "Device Certification"
+  ],
+  "addons_licensed": [
+   "Ad Measurement Plus"
+  ],
+  "tickets_monthly": [
+   42,
+   43,
+   38,
+   49,
+   63,
+   54
+  ],
+  "tickets_90d": 166,
+  "escalations_90d": 35,
+  "sev1_90d": 17,
+  "reopen_rate": 0.426,
+  "sentiment": -0.277,
+  "csat": 3.52,
+  "churn_mentions_90d": 15,
+  "usage_trend": -0.075,
+  "days_since_exec_touch": 29,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Partner Billing": [
+    7,
+    4,
+    5,
+    4,
+    2,
+    1
+   ],
+   "Device Certification": [
+    7,
+    5,
+    2,
+    3,
+    4,
+    4
+   ],
+   "Content Delivery": [
+    5,
+    5,
+    3,
+    6,
+    5,
+    7
+   ],
+   "Ad Manager": [
+    4,
+    4,
+    3,
+    1,
+    2,
+    3
+   ],
+   "Live Events": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    3
+   ],
+   "Ad Measurement Plus": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   "Analytics API": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 1.0,
+    "adoption": 0.063,
+    "voice": 0.645,
+    "disengagement": 0.155
+   },
+   "risk_score": 0.508,
+   "churn_probability": 0.869,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 228659,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-024",
+  "client": "streamhaus",
+  "name": "Holloway Cable",
+  "segment": "Telco Bundle Partner",
+  "region": "LATAM",
+  "arr": 367000,
+  "archetype": "unhappy_voice",
+  "seats_licensed": 61,
+  "seats_active": 32,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Analytics API",
+   "Ad Manager",
+   "Content Delivery",
+   "Device Certification"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   55,
+   51,
+   60,
+   48,
+   59,
+   62
+  ],
+  "tickets_90d": 169,
+  "escalations_90d": 9,
+  "sev1_90d": 3,
+  "reopen_rate": 0.2,
+  "sentiment": -0.249,
+  "csat": 3.51,
+  "churn_mentions_90d": 13,
+  "usage_trend": -0.077,
+  "days_since_exec_touch": 73,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Analytics API": [
+    7,
+    3,
+    4,
+    4,
+    6,
+    7
+   ],
+   "Content Delivery": [
+    3,
+    7,
+    1,
+    5,
+    6,
+    8
+   ],
+   "Device Certification": [
+    6,
+    6,
+    4,
+    6,
+    4,
+    5
+   ],
+   "Ad Manager": [
+    6,
+    4,
+    11,
+    9,
+    6,
+    9
+   ],
+   "Partner Billing": [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "Live Events": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "Ad Measurement Plus": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.04,
+    "adoption": 0.27,
+    "voice": 0.629,
+    "disengagement": 0.232
+   },
+   "risk_score": 0.283,
+   "churn_probability": 0.31,
+   "band": "amber",
+   "primary_driver": "voice",
+   "arr_at_risk": 113650,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-025",
+  "client": "streamhaus",
+  "name": "Vantor Cable",
+  "segment": "Device Partner",
+  "region": "LATAM",
+  "arr": 978000,
+  "archetype": "healthy",
+  "seats_licensed": 163,
+  "seats_active": 106,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Ad Manager",
+   "Device Certification",
+   "Partner Billing",
+   "Analytics API"
+  ],
+  "addons_licensed": [
+   "Interactive Formats",
+   "Ad Measurement Plus"
+  ],
+  "tickets_monthly": [
+   175,
+   208,
+   179,
+   167,
+   196,
+   170
+  ],
+  "tickets_90d": 533,
+  "escalations_90d": 35,
+  "sev1_90d": 11,
+  "reopen_rate": 0.151,
+  "sentiment": 0.373,
+  "csat": 4.23,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.071,
+  "days_since_exec_touch": 41,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Analytics API": [
+    19,
+    26,
+    21,
+    14,
+    24,
+    14
+   ],
+   "Device Certification": [
+    24,
+    19,
+    20,
+    17,
+    18,
+    20
+   ],
+   "Content Delivery": [
+    1,
+    1,
+    0,
+    1,
+    3,
+    1
+   ],
+   "Live Events": [
+    4,
+    2,
+    0,
+    0,
+    1,
+    9
+   ],
+   "Ad Manager": [
+    11,
+    24,
+    21,
+    21,
+    17,
+    20
+   ],
+   "Partner Billing": [
+    15,
+    17,
+    17,
+    15,
+    12,
+    18
+   ],
+   "Interactive Formats": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    0
+   ],
+   "Ad Measurement Plus": [
+    0,
+    2,
+    0,
+    0,
+    2,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.015,
+    "adoption": 0.12,
+    "voice": 0.028,
+    "disengagement": 0.068
+   },
+   "risk_score": 0.055,
+   "churn_probability": 0.028,
+   "band": "green",
+   "primary_driver": "adoption",
+   "arr_at_risk": 27674,
+   "expansion": {
+    "score": 0.575,
+    "seat_trigger": false,
+    "surges": [
+     {
+      "use_case": "Live Events",
+      "last_month": 9,
+      "baseline": 1.0,
+      "ratio": 9.0
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 195600
+   },
+   "expansion_weighted": 57020
+  }
+ },
+ {
+  "id": "ST-026",
+  "client": "streamhaus",
+  "name": "Tidewater Media",
+  "segment": "Telco Bundle Partner",
+  "region": "North America",
+  "arr": 321000,
+  "archetype": "escalation_hit",
+  "seats_licensed": 53,
+  "seats_active": 37,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Analytics API",
+   "Ad Manager",
+   "Content Delivery",
+   "Device Certification",
+   "Partner Billing"
+  ],
+  "addons_licensed": [
+   "Ad Measurement Plus",
+   "Live Events"
+  ],
+  "tickets_monthly": [
+   55,
+   59,
+   66,
+   75,
+   73,
+   78
+  ],
+  "tickets_90d": 226,
+  "escalations_90d": 55,
+  "sev1_90d": 10,
+  "reopen_rate": 0.43,
+  "sentiment": -0.296,
+  "csat": 3.4,
+  "churn_mentions_90d": 12,
+  "usage_trend": -0.113,
+  "days_since_exec_touch": 41,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Ad Manager": [
+    7,
+    4,
+    3,
+    4,
+    3,
+    0
+   ],
+   "Content Delivery": [
+    4,
+    9,
+    8,
+    2,
+    3,
+    5
+   ],
+   "Analytics API": [
+    5,
+    3,
+    8,
+    0,
+    4,
+    5
+   ],
+   "Device Certification": [
+    5,
+    6,
+    7,
+    6,
+    7,
+    6
+   ],
+   "Partner Billing": [
+    1,
+    5,
+    2,
+    3,
+    1,
+    5
+   ],
+   "Live Events": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   "Ad Measurement Plus": [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.821,
+    "adoption": 0.062,
+    "voice": 0.677,
+    "disengagement": 0.23
+   },
+   "risk_score": 0.477,
+   "churn_probability": 0.821,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 263614,
+   "expansion": {
+    "score": 0.15,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-027",
+  "client": "streamhaus",
+  "name": "Northgate Networks",
+  "segment": "Telco Bundle Partner",
+  "region": "LATAM",
+  "arr": 886000,
+  "archetype": "healthy",
+  "seats_licensed": 147,
+  "seats_active": 110,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Analytics API",
+   "Device Certification",
+   "Content Delivery",
+   "Partner Billing"
+  ],
+  "addons_licensed": [
+   "Ad Measurement Plus",
+   "Interactive Formats"
+  ],
+  "tickets_monthly": [
+   149,
+   137,
+   151,
+   161,
+   139,
+   147
+  ],
+  "tickets_90d": 447,
+  "escalations_90d": 32,
+  "sev1_90d": 5,
+  "reopen_rate": 0.08,
+  "sentiment": 0.452,
+  "csat": 4.33,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.035,
+  "days_since_exec_touch": 57,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Partner Billing": [
+    18,
+    16,
+    12,
+    20,
+    18,
+    14
+   ],
+   "Interactive Formats": [
+    1,
+    1,
+    2,
+    3,
+    0,
+    1
+   ],
+   "Device Certification": [
+    13,
+    11,
+    20,
+    16,
+    9,
+    13
+   ],
+   "Content Delivery": [
+    9,
+    14,
+    17,
+    21,
+    20,
+    17
+   ],
+   "Analytics API": [
+    13,
+    3,
+    12,
+    15,
+    11,
+    11
+   ],
+   "Ad Manager": [
+    4,
+    0,
+    1,
+    5,
+    1,
+    1
+   ],
+   "Ad Measurement Plus": [
+    1,
+    3,
+    2,
+    0,
+    5,
+    1
+   ],
+   "Live Events": [
+    0,
+    1,
+    3,
+    0,
+    0,
+    7
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.002,
+    "voice": 0.012,
+    "disengagement": 0.145
+   },
+   "risk_score": 0.032,
+   "churn_probability": 0.022,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 19182,
+   "expansion": {
+    "score": 0.688,
+    "seat_trigger": false,
+    "surges": [
+     {
+      "use_case": "Live Events",
+      "last_month": 7,
+      "baseline": 1.0,
+      "ratio": 7.0
+     }
+    ],
+    "blocked_by_risk": false,
+    "pipeline_value": 177200
+   },
+   "expansion_weighted": 52009
+  }
+ },
+ {
+  "id": "ST-028",
+  "client": "streamhaus",
+  "name": "Meridian Ads",
+  "segment": "Device Partner",
+  "region": "APAC",
+  "arr": 524000,
+  "archetype": "healthy",
+  "seats_licensed": 87,
+  "seats_active": 59,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Ad Manager",
+   "Content Delivery",
+   "Partner Billing",
+   "Device Certification"
+  ],
+  "addons_licensed": [
+   "Interactive Formats"
+  ],
+  "tickets_monthly": [
+   123,
+   117,
+   121,
+   116,
+   112,
+   119
+  ],
+  "tickets_90d": 347,
+  "escalations_90d": 31,
+  "sev1_90d": 9,
+  "reopen_rate": 0.152,
+  "sentiment": 0.421,
+  "csat": 4.25,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.091,
+  "days_since_exec_touch": 26,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Interactive Formats": [
+    2,
+    2,
+    0,
+    1,
+    1,
+    1
+   ],
+   "Content Delivery": [
+    13,
+    9,
+    8,
+    10,
+    9,
+    14
+   ],
+   "Partner Billing": [
+    10,
+    13,
+    13,
+    14,
+    15,
+    7
+   ],
+   "Ad Manager": [
+    9,
+    11,
+    9,
+    11,
+    13,
+    10
+   ],
+   "Device Certification": [
+    8,
+    10,
+    12,
+    9,
+    8,
+    12
+   ],
+   "Ad Measurement Plus": [
+    1,
+    1,
+    1,
+    1,
+    3,
+    0
+   ],
+   "Live Events": [
+    1,
+    1,
+    1,
+    2,
+    0,
+    4
+   ],
+   "Analytics API": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.016,
+    "adoption": 0.086,
+    "voice": 0.025,
+    "disengagement": 0.043
+   },
+   "risk_score": 0.041,
+   "churn_probability": 0.024,
+   "band": "green",
+   "primary_driver": "adoption",
+   "arr_at_risk": 12584,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-029",
+  "client": "streamhaus",
+  "name": "Juniper Studios",
+  "segment": "Advertiser",
+  "region": "EMEA",
+  "arr": 875000,
+  "archetype": "healthy",
+  "seats_licensed": 145,
+  "seats_active": 120,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Partner Billing",
+   "Ad Manager",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "addons_licensed": [
+   "Live Events"
+  ],
+  "tickets_monthly": [
+   104,
+   88,
+   89,
+   92,
+   92,
+   104
+  ],
+  "tickets_90d": 288,
+  "escalations_90d": 32,
+  "sev1_90d": 8,
+  "reopen_rate": 0.123,
+  "sentiment": 0.351,
+  "csat": 4.2,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.077,
+  "days_since_exec_touch": 73,
+  "champion_left": true,
+  "howto_by_use_case": {
+   "Content Delivery": [
+    5,
+    7,
+    10,
+    7,
+    6,
+    7
+   ],
+   "Partner Billing": [
+    7,
+    7,
+    11,
+    6,
+    8,
+    11
+   ],
+   "Ad Manager": [
+    7,
+    4,
+    8,
+    9,
+    8,
+    12
+   ],
+   "Device Certification": [
+    4,
+    11,
+    5,
+    8,
+    5,
+    8
+   ],
+   "Analytics API": [
+    8,
+    11,
+    12,
+    5,
+    13,
+    9
+   ],
+   "Ad Measurement Plus": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "Live Events": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.107,
+    "adoption": 0.0,
+    "voice": 0.033,
+    "disengagement": 0.422
+   },
+   "risk_score": 0.125,
+   "churn_probability": 0.063,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 54968,
+   "expansion": {
+    "score": 0.448,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-030",
+  "client": "streamhaus",
+  "name": "Brightwater Devices",
+  "segment": "Device Partner",
+  "region": "APAC",
+  "arr": 501000,
+  "archetype": "low_adoption",
+  "seats_licensed": 83,
+  "seats_active": 18,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Device Certification",
+   "Ad Manager"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   105,
+   101,
+   112,
+   109,
+   98,
+   109
+  ],
+  "tickets_90d": 316,
+  "escalations_90d": 32,
+  "sev1_90d": 9,
+  "reopen_rate": 0.126,
+  "sentiment": 0.399,
+  "csat": 4.28,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.111,
+  "days_since_exec_touch": 47,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Device Certification": [
+    20,
+    19,
+    17,
+    24,
+    19,
+    15
+   ],
+   "Partner Billing": [
+    1,
+    1,
+    3,
+    0,
+    2,
+    3
+   ],
+   "Ad Manager": [
+    24,
+    18,
+    26,
+    18,
+    12,
+    16
+   ],
+   "Content Delivery": [
+    1,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "Analytics API": [
+    2,
+    2,
+    1,
+    3,
+    0,
+    0
+   ],
+   "Live Events": [
+    2,
+    0,
+    2,
+    0,
+    2,
+    2
+   ],
+   "Ad Measurement Plus": [
+    2,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "Interactive Formats": [
+    1,
+    0,
+    1,
+    5,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.059,
+    "adoption": 0.76,
+    "voice": 0.02,
+    "disengagement": 0.237
+   },
+   "risk_score": 0.26,
+   "churn_probability": 0.254,
+   "band": "amber",
+   "primary_driver": "adoption",
+   "arr_at_risk": 127211,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-031",
+  "client": "streamhaus",
+  "name": "Fernhill Ads",
+  "segment": "Device Partner",
+  "region": "North America",
+  "arr": 307000,
+  "archetype": "healthy",
+  "seats_licensed": 51,
+  "seats_active": 39,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Ad Manager",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   75,
+   82,
+   77,
+   68,
+   68,
+   82
+  ],
+  "tickets_90d": 218,
+  "escalations_90d": 16,
+  "sev1_90d": 3,
+  "reopen_rate": 0.108,
+  "sentiment": 0.317,
+  "csat": 4.34,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.082,
+  "days_since_exec_touch": 12,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Ad Manager": [
+    8,
+    8,
+    10,
+    5,
+    1,
+    9
+   ],
+   "Content Delivery": [
+    7,
+    8,
+    8,
+    8,
+    3,
+    4
+   ],
+   "Live Events": [
+    3,
+    1,
+    0,
+    0,
+    0,
+    5
+   ],
+   "Device Certification": [
+    6,
+    4,
+    11,
+    9,
+    7,
+    5
+   ],
+   "Analytics API": [
+    6,
+    5,
+    9,
+    7,
+    4,
+    9
+   ],
+   "Partner Billing": [
+    3,
+    1,
+    3,
+    0,
+    1,
+    0
+   ],
+   "Ad Measurement Plus": [
+    2,
+    2,
+    1,
+    0,
+    2,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    0,
+    2,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.0,
+    "voice": 0.01,
+    "disengagement": 0.02
+   },
+   "risk_score": 0.007,
+   "churn_probability": 0.016,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 4898,
+   "expansion": {
+    "score": 0.226,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-032",
+  "client": "streamhaus",
+  "name": "Vantor Studios",
+  "segment": "Device Partner",
+  "region": "EMEA",
+  "arr": 687000,
+  "archetype": "healthy",
+  "seats_licensed": 114,
+  "seats_active": 86,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Ad Manager",
+   "Device Certification",
+   "Partner Billing"
+  ],
+  "addons_licensed": [
+   "Interactive Formats"
+  ],
+  "tickets_monthly": [
+   120,
+   114,
+   112,
+   117,
+   116,
+   113
+  ],
+  "tickets_90d": 346,
+  "escalations_90d": 24,
+  "sev1_90d": 5,
+  "reopen_rate": 0.087,
+  "sentiment": 0.329,
+  "csat": 4.18,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.067,
+  "days_since_exec_touch": 33,
+  "champion_left": true,
+  "howto_by_use_case": {
+   "Partner Billing": [
+    22,
+    19,
+    12,
+    24,
+    20,
+    15
+   ],
+   "Ad Manager": [
+    17,
+    16,
+    16,
+    20,
+    12,
+    15
+   ],
+   "Device Certification": [
+    20,
+    10,
+    8,
+    17,
+    12,
+    16
+   ],
+   "Ad Measurement Plus": [
+    4,
+    0,
+    2,
+    0,
+    1,
+    1
+   ],
+   "Analytics API": [
+    1,
+    2,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    2,
+    1,
+    1,
+    0,
+    1
+   ],
+   "Content Delivery": [
+    0,
+    0,
+    1,
+    2,
+    0,
+    0
+   ],
+   "Live Events": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    5
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.0,
+    "voice": 0.037,
+    "disengagement": 0.355
+   },
+   "risk_score": 0.08,
+   "churn_probability": 0.038,
+   "band": "green",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 25941,
+   "expansion": {
+    "score": 0.127,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-033",
+  "client": "streamhaus",
+  "name": "Meridian Broadband",
+  "segment": "Advertiser",
+  "region": "APAC",
+  "arr": 281000,
+  "archetype": "escalation_hit",
+  "seats_licensed": 46,
+  "seats_active": 29,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Content Delivery",
+   "Partner Billing",
+   "Analytics API",
+   "Device Certification"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   72,
+   84,
+   72,
+   85,
+   98,
+   105
+  ],
+  "tickets_90d": 288,
+  "escalations_90d": 62,
+  "sev1_90d": 19,
+  "reopen_rate": 0.479,
+  "sentiment": -0.264,
+  "csat": 3.4,
+  "churn_mentions_90d": 19,
+  "usage_trend": -0.116,
+  "days_since_exec_touch": 30,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Partner Billing": [
+    9,
+    12,
+    9,
+    6,
+    6,
+    10
+   ],
+   "Device Certification": [
+    5,
+    5,
+    9,
+    5,
+    5,
+    1
+   ],
+   "Content Delivery": [
+    6,
+    8,
+    5,
+    3,
+    6,
+    5
+   ],
+   "Analytics API": [
+    12,
+    11,
+    8,
+    4,
+    7,
+    6
+   ],
+   "Ad Measurement Plus": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "Ad Manager": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    2
+   ],
+   "Live Events": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    4
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.93,
+    "adoption": 0.143,
+    "voice": 0.657,
+    "disengagement": 0.216
+   },
+   "risk_score": 0.522,
+   "churn_probability": 0.888,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 249393,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-034",
+  "client": "streamhaus",
+  "name": "Quarrystone Devices",
+  "segment": "Telco Bundle Partner",
+  "region": "EMEA",
+  "arr": 266000,
+  "archetype": "low_adoption",
+  "seats_licensed": 44,
+  "seats_active": 12,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Partner Billing",
+   "Content Delivery"
+  ],
+  "addons_licensed": [
+   "Ad Measurement Plus"
+  ],
+  "tickets_monthly": [
+   48,
+   42,
+   46,
+   46,
+   48,
+   42
+  ],
+  "tickets_90d": 136,
+  "escalations_90d": 12,
+  "sev1_90d": 5,
+  "reopen_rate": 0.158,
+  "sentiment": 0.324,
+  "csat": 4.31,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.003,
+  "days_since_exec_touch": 55,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Partner Billing": [
+    10,
+    12,
+    12,
+    13,
+    6,
+    11
+   ],
+   "Content Delivery": [
+    7,
+    8,
+    9,
+    9,
+    11,
+    8
+   ],
+   "Live Events": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Ad Measurement Plus": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   "Analytics API": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "Device Certification": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.053,
+    "adoption": 0.733,
+    "voice": 0.015,
+    "disengagement": 0.096
+   },
+   "risk_score": 0.222,
+   "churn_probability": 0.177,
+   "band": "amber",
+   "primary_driver": "adoption",
+   "arr_at_risk": 47099,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-035",
+  "client": "streamhaus",
+  "name": "Yarrowby Networks",
+  "segment": "Advertiser",
+  "region": "North America",
+  "arr": 355000,
+  "archetype": "low_adoption",
+  "seats_licensed": 59,
+  "seats_active": 23,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Ad Manager"
+  ],
+  "addons_licensed": [
+   "Interactive Formats",
+   "Ad Measurement Plus"
+  ],
+  "tickets_monthly": [
+   84,
+   90,
+   83,
+   83,
+   100,
+   87
+  ],
+  "tickets_90d": 270,
+  "escalations_90d": 19,
+  "sev1_90d": 4,
+  "reopen_rate": 0.121,
+  "sentiment": 0.296,
+  "csat": 4.33,
+  "churn_mentions_90d": 0,
+  "usage_trend": -0.107,
+  "days_since_exec_touch": 55,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Ad Manager": [
+    26,
+    34,
+    35,
+    31,
+    35,
+    33
+   ],
+   "Device Certification": [
+    1,
+    2,
+    1,
+    2,
+    1,
+    1
+   ],
+   "Live Events": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    3
+   ],
+   "Ad Measurement Plus": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   "Partner Billing": [
+    0,
+    3,
+    0,
+    1,
+    1,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "Analytics API": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "Content Delivery": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.001,
+    "adoption": 0.752,
+    "voice": 0.012,
+    "disengagement": 0.245
+   },
+   "risk_score": 0.24,
+   "churn_probability": 0.211,
+   "band": "amber",
+   "primary_driver": "adoption",
+   "arr_at_risk": 74856,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-036",
+  "client": "streamhaus",
+  "name": "Holloway Ads",
+  "segment": "Content Partner",
+  "region": "EMEA",
+  "arr": 413000,
+  "archetype": "escalation_hit",
+  "seats_licensed": 68,
+  "seats_active": 42,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Analytics API",
+   "Content Delivery",
+   "Partner Billing",
+   "Ad Manager"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   91,
+   87,
+   80,
+   98,
+   102,
+   99
+  ],
+  "tickets_90d": 299,
+  "escalations_90d": 55,
+  "sev1_90d": 28,
+  "reopen_rate": 0.482,
+  "sentiment": -0.261,
+  "csat": 3.51,
+  "churn_mentions_90d": 23,
+  "usage_trend": -0.041,
+  "days_since_exec_touch": 72,
+  "champion_left": true,
+  "howto_by_use_case": {
+   "Live Events": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    2
+   ],
+   "Partner Billing": [
+    9,
+    6,
+    6,
+    6,
+    7,
+    3
+   ],
+   "Ad Manager": [
+    11,
+    10,
+    10,
+    4,
+    5,
+    7
+   ],
+   "Analytics API": [
+    10,
+    6,
+    9,
+    6,
+    5,
+    4
+   ],
+   "Content Delivery": [
+    10,
+    11,
+    5,
+    6,
+    7,
+    3
+   ],
+   "Device Certification": [
+    2,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "Ad Measurement Plus": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.87,
+    "adoption": 0.159,
+    "voice": 0.636,
+    "disengagement": 0.479
+   },
+   "risk_score": 0.555,
+   "churn_probability": 0.922,
+   "band": "red",
+   "primary_driver": "escalation",
+   "arr_at_risk": 380656,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-037",
+  "client": "streamhaus",
+  "name": "Alderbrook Studios",
+  "segment": "Telco Bundle Partner",
+  "region": "EMEA",
+  "arr": 944000,
+  "archetype": "drifting",
+  "seats_licensed": 157,
+  "seats_active": 65,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Content Delivery",
+   "Device Certification",
+   "Partner Billing"
+  ],
+  "addons_licensed": [
+   "Ad Measurement Plus"
+  ],
+  "tickets_monthly": [
+   125,
+   111,
+   110,
+   68,
+   74,
+   55
+  ],
+  "tickets_90d": 197,
+  "escalations_90d": 12,
+  "sev1_90d": 4,
+  "reopen_rate": 0.089,
+  "sentiment": 0.274,
+  "csat": 3.98,
+  "churn_mentions_90d": 12,
+  "usage_trend": -0.367,
+  "days_since_exec_touch": 106,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Partner Billing": [
+    17,
+    10,
+    14,
+    11,
+    11,
+    4
+   ],
+   "Content Delivery": [
+    23,
+    20,
+    12,
+    13,
+    4,
+    6
+   ],
+   "Device Certification": [
+    17,
+    19,
+    20,
+    13,
+    11,
+    8
+   ],
+   "Ad Measurement Plus": [
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "Ad Manager": [
+    2,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "Analytics API": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1
+   ],
+   "Interactive Formats": [
+    1,
+    0,
+    1,
+    2,
+    1,
+    0
+   ],
+   "Live Events": [
+    1,
+    3,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.403,
+    "voice": 0.27,
+    "disengagement": 0.677
+   },
+   "risk_score": 0.304,
+   "churn_probability": 0.364,
+   "band": "amber",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 343965,
+   "expansion": {
+    "score": 0.0,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-038",
+  "client": "streamhaus",
+  "name": "Zephyrine Networks",
+  "segment": "Advertiser",
+  "region": "North America",
+  "arr": 719000,
+  "archetype": "healthy",
+  "seats_licensed": 119,
+  "seats_active": 99,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   123,
+   135,
+   134,
+   148,
+   143,
+   113
+  ],
+  "tickets_90d": 404,
+  "escalations_90d": 30,
+  "sev1_90d": 11,
+  "reopen_rate": 0.075,
+  "sentiment": 0.396,
+  "csat": 4.24,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.077,
+  "days_since_exec_touch": 19,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Content Delivery": [
+    14,
+    14,
+    20,
+    20,
+    19,
+    14
+   ],
+   "Ad Manager": [
+    2,
+    1,
+    1,
+    2,
+    0,
+    0
+   ],
+   "Analytics API": [
+    18,
+    17,
+    10,
+    15,
+    17,
+    22
+   ],
+   "Device Certification": [
+    18,
+    19,
+    13,
+    25,
+    20,
+    17
+   ],
+   "Ad Measurement Plus": [
+    1,
+    2,
+    0,
+    1,
+    0,
+    5
+   ],
+   "Interactive Formats": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    0
+   ],
+   "Live Events": [
+    0,
+    3,
+    2,
+    0,
+    1,
+    4
+   ],
+   "Partner Billing": [
+    0,
+    0,
+    1,
+    3,
+    1,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.0,
+    "adoption": 0.0,
+    "voice": 0.027,
+    "disengagement": 0.032
+   },
+   "risk_score": 0.013,
+   "churn_probability": 0.017,
+   "band": "green",
+   "primary_driver": "voice",
+   "arr_at_risk": 12385,
+   "expansion": {
+    "score": 0.308,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-039",
+  "client": "streamhaus",
+  "name": "Copperfield Networks",
+  "segment": "Telco Bundle Partner",
+  "region": "North America",
+  "arr": 912000,
+  "archetype": "drifting",
+  "seats_licensed": 152,
+  "seats_active": 85,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Ad Manager",
+   "Analytics API",
+   "Partner Billing",
+   "Content Delivery"
+  ],
+  "addons_licensed": [],
+  "tickets_monthly": [
+   109,
+   92,
+   98,
+   66,
+   60,
+   50
+  ],
+  "tickets_90d": 176,
+  "escalations_90d": 10,
+  "sev1_90d": 2,
+  "reopen_rate": 0.13,
+  "sentiment": 0.25,
+  "csat": 4.02,
+  "churn_mentions_90d": 12,
+  "usage_trend": -0.416,
+  "days_since_exec_touch": 145,
+  "champion_left": true,
+  "howto_by_use_case": {
+   "Ad Manager": [
+    12,
+    9,
+    16,
+    6,
+    4,
+    1
+   ],
+   "Analytics API": [
+    11,
+    8,
+    10,
+    6,
+    8,
+    4
+   ],
+   "Partner Billing": [
+    11,
+    9,
+    11,
+    7,
+    5,
+    5
+   ],
+   "Content Delivery": [
+    6,
+    6,
+    11,
+    14,
+    5,
+    6
+   ],
+   "Live Events": [
+    2,
+    0,
+    2,
+    0,
+    0,
+    1
+   ],
+   "Ad Measurement Plus": [
+    1,
+    3,
+    0,
+    0,
+    1,
+    0
+   ],
+   "Interactive Formats": [
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "Device Certification": [
+    0,
+    2,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.005,
+    "adoption": 0.229,
+    "voice": 0.263,
+    "disengagement": 1.0
+   },
+   "risk_score": 0.325,
+   "churn_probability": 0.424,
+   "band": "red",
+   "primary_driver": "disengagement",
+   "arr_at_risk": 386959,
+   "expansion": {
+    "score": 0.075,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ },
+ {
+  "id": "ST-040",
+  "client": "streamhaus",
+  "name": "Cobalt Networks",
+  "segment": "Device Partner",
+  "region": "EMEA",
+  "arr": 618000,
+  "archetype": "healthy",
+  "seats_licensed": 103,
+  "seats_active": 76,
+  "modules_licensed": [
+   "Ad Manager",
+   "Partner Billing",
+   "Device Certification",
+   "Content Delivery",
+   "Analytics API"
+  ],
+  "modules_used": [
+   "Analytics API",
+   "Partner Billing",
+   "Content Delivery",
+   "Device Certification",
+   "Ad Manager"
+  ],
+  "addons_licensed": [
+   "Live Events"
+  ],
+  "tickets_monthly": [
+   76,
+   83,
+   80,
+   73,
+   79,
+   68
+  ],
+  "tickets_90d": 220,
+  "escalations_90d": 28,
+  "sev1_90d": 7,
+  "reopen_rate": 0.103,
+  "sentiment": 0.414,
+  "csat": 4.24,
+  "churn_mentions_90d": 0,
+  "usage_trend": 0.095,
+  "days_since_exec_touch": 49,
+  "champion_left": false,
+  "howto_by_use_case": {
+   "Ad Manager": [
+    6,
+    8,
+    5,
+    6,
+    5,
+    11
+   ],
+   "Device Certification": [
+    7,
+    2,
+    8,
+    6,
+    5,
+    4
+   ],
+   "Analytics API": [
+    8,
+    5,
+    6,
+    5,
+    7,
+    2
+   ],
+   "Content Delivery": [
+    5,
+    6,
+    5,
+    5,
+    8,
+    10
+   ],
+   "Partner Billing": [
+    6,
+    7,
+    10,
+    9,
+    4,
+    5
+   ],
+   "Ad Measurement Plus": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   "Live Events": [
+    0,
+    2,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "result": {
+   "components": {
+    "escalation": 0.195,
+    "adoption": 0.015,
+    "voice": 0.027,
+    "disengagement": 0.082
+   },
+   "risk_score": 0.085,
+   "churn_probability": 0.04,
+   "band": "green",
+   "primary_driver": "escalation",
+   "arr_at_risk": 24753,
+   "expansion": {
+    "score": 0.238,
+    "seat_trigger": false,
+    "surges": [],
+    "blocked_by_risk": false,
+    "pipeline_value": 0
+   },
+   "expansion_weighted": 0
+  }
+ }
+]

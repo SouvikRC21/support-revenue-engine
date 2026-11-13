@@ -1,0 +1,51 @@
+{
+ "clients": {
+  "lumora": {
+   "name": "Lumora CX",
+   "accounts": 60,
+   "arr": 21001000,
+   "tickets_per_month": 2000,
+   "red": 10,
+   "amber": 9,
+   "arr_at_risk": 4078216,
+   "arr_saveable": 1230160,
+   "expansion_pipeline": 712950,
+   "expansion_weighted": 208754,
+   "support_cost": 1050000,
+   "support_contract_value": 1400000,
+   "revenue_influenced": 1438914
+  },
+  "streamhaus": {
+   "name": "Streamhaus",
+   "accounts": 40,
+   "arr": 23999000,
+   "tickets_per_month": 4000,
+   "red": 7,
+   "amber": 7,
+   "arr_at_risk": 4018115,
+   "arr_saveable": 1243472,
+   "expansion_pipeline": 2056200,
+   "expansion_weighted": 603428,
+   "support_cost": 1950000,
+   "support_contract_value": 2200000,
+   "revenue_influenced": 1846900
+  }
+ },
+ "total": {
+  "accounts": 100,
+  "arr": 45000000,
+  "red": 17,
+  "amber": 16,
+  "arr_at_risk": 8096331,
+  "arr_saveable": 2473632,
+  "expansion_pipeline": 2769150,
+  "expansion_weighted": 812182,
+  "support_cost": 3000000,
+  "support_contract_value": 3600000,
+  "revenue_influenced": 3285814,
+  "tickets_per_month": 6000,
+  "program_cost": 240000,
+  "multiplier": 1.1,
+  "program_roi": 13.7
+ }
+}

@@ -13,6 +13,8 @@ CHURN_PLAYS = {
               "Call the customer sponsor within 48 hours, take the top three complaints to product triage, and report back on each in writing."),
     "disengagement": ("Re-engagement", "CSM + Account Executive",
                       "Book an executive QBR within 30 days, map a new champion if the old one left, and refresh the success plan."),
+    "service_strain": ("Service recovery", "Support Lead + Queue Manager",
+                       "Ring-fence a named pod for the account, clear the complaint backlog within 5 working days, cut hand-offs by routing straight to L2, and send the customer a weekly service note until complaint volume and handling time are back to baseline."),
 }
 SLA_DAYS = {"red": 2, "amber": 7}
 

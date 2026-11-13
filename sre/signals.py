@@ -55,13 +55,23 @@ def build_signals(cfg, accounts, telemetry, tickets):
             if t["category"] == "how_to":
                 howto[t["use_case"]][months.index(t["month"])] += 1
 
+        complaints = [sum(1 for t in ts if t["month"] == m and t["category"] == "complaint") for m in months]
+        prior = [t for t in ts if t["month"] not in recent]
+        aht_recent = sum(t["handle_hours"] for t in r) / len(r) if r else 0.0
+        aht_prior = sum(t["handle_hours"] for t in prior) / len(prior) if prior else aht_recent
+
         tel = telemetry[a["id"]]
         out.append({
             **{k: a[k] for k in ("id", "client", "name", "segment", "region", "arr", "archetype",
                                  "seats_licensed", "seats_active", "modules_licensed", "modules_used",
-                                 "addons_licensed")},
+                                 "addons_licensed", "renewal_quarter")},
             "tickets_monthly": monthly,
             "tickets_90d": len(r),
+            "complaints_monthly": complaints,
+            "aht_recent_hours": round(aht_recent, 2),
+            "aht_prior_hours": round(aht_prior, 2),
+            "aht_monthly": [round(sum(t["handle_hours"] for t in ts if t["month"] == m) / max(1, n), 2)
+                            for m, n in zip(months, monthly)],
             "escalations_90d": esc,
             "sev1_90d": sev1,
             "reopen_rate": round(reopen, 3),

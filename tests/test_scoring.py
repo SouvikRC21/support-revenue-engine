@@ -12,6 +12,7 @@ def base_account(**kw):
         "escalations_90d": 6, "sev1_90d": 1, "reopen_rate": 0.08, "sentiment": 0.3, "csat": 4.5,
         "churn_mentions_90d": 0, "usage_trend": 0.05, "days_since_exec_touch": 20, "champion_left": False,
         "howto_by_use_case": {"A": [10, 10, 10, 10, 10, 10]},
+        "complaints_monthly": [3, 3, 3, 3, 3, 3], "aht_prior_hours": 2.5, "aht_recent_hours": 2.5, "renewal_quarter": 1,
     }
     a.update(kw)
     return a
@@ -62,6 +63,19 @@ class ScoringTest(unittest.TestCase):
         after = scoring.score_account(acc, self.cfg, {"escalation_reduction": 0.5})["churn_probability"]
         self.assertLess(after, before)
 
+    def test_complaint_surge_and_slower_handling_raise_risk(self):
+        calm = scoring.score_account(base_account(), self.cfg)
+        acc = base_account(complaints_monthly=[2, 2, 3, 3, 3, 12], aht_recent_hours=3.6)
+        r = scoring.score_account(acc, self.cfg)
+        self.assertGreater(r["components"]["service_strain"], 0.5)
+        self.assertGreater(r["churn_probability"], calm["churn_probability"])
+
+    def test_handling_time_whatif_lowers_strain(self):
+        acc = base_account(complaints_monthly=[2, 2, 3, 3, 3, 12], aht_recent_hours=3.6)
+        before = scoring.score_account(acc, self.cfg)["components"]["service_strain"]
+        after = scoring.score_account(acc, self.cfg, {"aht_reduction": 0.3})["components"]["service_strain"]
+        self.assertLess(after, before)
+
     def test_sentiment_lexicon(self):
         self.assertGreater(signals.sentiment("Thanks, resolved quickly, great help")[0], 0)
         s, churn = signals.sentiment("We are reviewing alternatives before the renewal")
@@ -79,6 +93,19 @@ class PipelineTest(unittest.TestCase):
         self.assertGreaterEqual(quality["precision"], 0.8)
         self.assertGreaterEqual(quality["recall"], 0.8)
         self.assertTrue(all(a["owner"] and a["start_within_days"] for a in actions))
+
+    def test_glide_path_floor_below_expected_and_grows(self):
+        cfg = config.load()
+        _, _, _, summary = cli.run(cfg)
+        g = summary["glide"]
+        self.assertEqual(len(g["quarters"]), 4)
+        self.assertGreater(g["day90_minimum"], 0)
+        self.assertEqual(g["quarters"][0]["expansion_expected"], 0)  # no expansion closes in the first 90 days
+        for q in g["quarters"]:
+            self.assertLessEqual(q["total_floor"], q["total_expected"])
+        cum = [q["cumulative_floor"] for q in g["quarters"]]
+        self.assertEqual(cum, sorted(cum))
+        self.assertLess(g["quarters"][3]["aht_hours"], g["baseline"]["aht_hours"])
 
 
 if __name__ == "__main__":

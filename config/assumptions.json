@@ -68,13 +68,14 @@
     }
   },
   "weights": {
-    "escalation": 0.3,
-    "adoption": 0.25,
-    "voice": 0.25,
-    "disengagement": 0.2
+    "escalation": 0.25,
+    "adoption": 0.2,
+    "voice": 0.2,
+    "disengagement": 0.15,
+    "service_strain": 0.2
   },
   "churn_curve": {
-    "midpoint": 0.35,
+    "midpoint": 0.3,
     "steepness": 12
   },
   "bands": {
@@ -94,5 +95,47 @@
     "pod_headcount": 6,
     "tooling_usd": 60000,
     "note": "Revenue intelligence pod carved out of the existing 100 engineers: 4 support analysts and 2 technical account managers, plus dashboard and integration tooling."
+  },
+  "glide": {
+    "note": "Quarter 1 is the first 90 days of the programme. Saves count only in the quarter an account renews.",
+    "retention_ramp": [
+      0.5,
+      0.8,
+      0.95,
+      1.0
+    ],
+    "expansion_ramp": [
+      0.0,
+      0.5,
+      0.85,
+      1.0
+    ],
+    "floor_save_rate": 0.2,
+    "floor_win_rate": 0.15,
+    "escalation_reduction": [
+      0.1,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "aht_reduction": [
+      0.05,
+      0.1,
+      0.13,
+      0.15
+    ],
+    "complaint_reduction": [
+      0.15,
+      0.3,
+      0.4,
+      0.45
+    ],
+    "csat_lift": [
+      0.1,
+      0.2,
+      0.3,
+      0.3
+    ],
+    "engineer_hours_per_year": 1800
   }
 }

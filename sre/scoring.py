@@ -12,7 +12,7 @@ def clamp(x, lo=0.0, hi=1.0):
 
 
 def churn_components(s, whatif=None):
-    """Four indicators, each normalised to 0 (healthy) .. 1 (severe)."""
+    """Five indicators, each normalised to 0 (healthy) .. 1 (severe)."""
     w = whatif or {}
     esc_cut = w.get("escalation_reduction", 0.0)
     adoption_lift = w.get("adoption_lift", 0.0)
@@ -38,7 +38,20 @@ def churn_components(s, whatif=None):
                      + 0.2 * clamp(s["days_since_exec_touch"] / 120)
                      + 0.3 * (1.0 if s["champion_left"] else 0.0))
 
-    return {"escalation": escalation, "adoption": adoption, "voice": voice, "disengagement": disengagement}
+    # complaint surge and handling time: the customer is hurting and each ticket takes longer to close
+    aht_cut = w.get("aht_reduction", 0.0)
+    comp = s["complaints_monthly"]
+    last = comp[-1] * (1 - esc_cut)
+    base = max(1.0, sum(comp[-4:-1]) / 3)
+    ratio = last / base if last >= 4 else 1.0
+    share = sum(comp[-3:]) * (1 - esc_cut) / tickets
+    aht_change = (s["aht_recent_hours"] * (1 - aht_cut)) / max(0.01, s["aht_prior_hours"]) - 1
+    service_strain = (0.4 * clamp((ratio - 1.2) / 1.5)
+                      + 0.2 * clamp((share - 0.04) / 0.08)
+                      + 0.4 * clamp((aht_change - 0.05) / 0.35))
+
+    return {"escalation": escalation, "adoption": adoption, "voice": voice, "disengagement": disengagement,
+            "service_strain": service_strain}
 
 
 def churn_probability(score, curve):

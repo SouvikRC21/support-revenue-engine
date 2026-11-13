@@ -22,7 +22,11 @@ SUFFIXES = {
     "streamhaus": ["Media", "Mobile", "Broadband", "Ads", "Studios", "Devices", "Networks", "Cable"],
 }
 REGIONS = ["North America", "EMEA", "APAC", "LATAM"]
-CATEGORIES = ["how_to", "defect", "outage", "access", "billing", "feature_request"]
+CATEGORIES = ["how_to", "defect", "outage", "access", "billing", "feature_request", "complaint"]
+
+# hours of engineer effort per ticket, before noise (assumed)
+BASE_HANDLE_HOURS = {"how_to": 1.4, "defect": 5.5, "outage": 4.0, "access": 0.6, "billing": 1.0,
+                     "feature_request": 0.8, "complaint": 2.8}
 
 # Archetypes give the synthetic portfolio realistic stories to find.
 ARCHETYPES = [
@@ -118,6 +122,7 @@ def build_accounts(cfg, rng):
                 "modules_licensed": list(c["modules"]),
                 "modules_used": rng.sample(c["modules"], breadth),
                 "addons_licensed": addons_licensed,
+                "renewal_quarter": rng.randint(1, 4),  # quarter of the programme in which the contract renews
                 "ticket_weight": (arr ** 0.7) * rng.uniform(0.7, 1.3),
             })
     return accounts
@@ -171,12 +176,12 @@ def build_tickets(cfg, accounts, rng):
                 surge_target = unlicensed[0] if unlicensed else None
                 for _ in range(count):
                     tid += 1
-                    use_case, category = _pick_use_case(rng, c, a, arch, recent, last, surge_uc, surge_target)
-                    tickets.append(_make_ticket(rng, tid, client_id, a, month, use_case, category, arch, recent))
+                    use_case, category = _pick_use_case(rng, c, a, arch, recent, last, surge_uc, surge_target, mi)
+                    tickets.append(_make_ticket(rng, tid, client_id, a, month, use_case, category, arch, recent, mi))
     return tickets
 
 
-def _pick_use_case(rng, c, a, arch, recent, last, surge_uc, surge_target):
+def _pick_use_case(rng, c, a, arch, recent, last, surge_uc, surge_target, mi):
     # client-wide surge on one add-on in the most recent month (market event or new release)
     if last and surge_uc not in a["addons_licensed"] and rng.random() < 0.025:
         return surge_uc, "how_to"
@@ -186,14 +191,22 @@ def _pick_use_case(rng, c, a, arch, recent, last, surge_uc, surge_target):
         return rng.choice(c["addons"]), "how_to"
     pool = a["modules_used"] if rng.random() < 0.9 else a["modules_licensed"]
     use_case = rng.choice(pool)
+    # complaint share climbs month by month for accounts in trouble (formal complaints about service, not product questions)
+    complaint = 0.035
+    if arch == "escalation_hit" and recent:
+        complaint = 0.05 + 0.05 * (mi - 2)
+    elif arch == "unhappy_voice":
+        complaint = 0.04 + (0.10 if mi == 5 else 0.05 if mi == 4 else 0.0)
     if arch == "escalation_hit" and recent:
         mix = [("how_to", 0.25), ("defect", 0.45), ("outage", 0.12), ("access", 0.08), ("billing", 0.04), ("feature_request", 0.06)]
     else:
         mix = [("how_to", 0.42), ("defect", 0.25), ("outage", 0.03), ("access", 0.15), ("billing", 0.06), ("feature_request", 0.09)]
+    if rng.random() < complaint:
+        return use_case, "complaint"
     return use_case, _weighted(rng, mix)
 
 
-def _make_ticket(rng, tid, client_id, a, month, use_case, category, arch, recent):
+def _make_ticket(rng, tid, client_id, a, month, use_case, category, arch, recent, mi):
     if category == "outage":
         sev = _weighted(rng, [("S1", 0.5), ("S2", 0.5)])
     elif category == "defect":
@@ -207,7 +220,14 @@ def _make_ticket(rng, tid, client_id, a, month, use_case, category, arch, recent
     reopen_p = 0.22 if (arch == "escalation_hit" and recent) else 0.06
     reopened = category in ("defect", "outage") and rng.random() < reopen_p * 2
 
-    unhappy = arch == "unhappy_voice" or (arch == "escalation_hit" and recent)
+    unhappy = arch == "unhappy_voice" or (arch == "escalation_hit" and recent) or category == "complaint"
+    # handling time stretches when an account is in trouble: more back and forth, more hand-offs to engineering
+    strain = 1.0
+    if arch == "escalation_hit" and recent:
+        strain = 1.10 + 0.08 * (mi - 3)
+    elif arch == "unhappy_voice" and mi >= 3:
+        strain = 1.15 + 0.08 * (mi - 3)
+    handle = BASE_HANDLE_HOURS[category] * strain * math.exp(rng.gauss(0, 0.35))
     tone = _weighted(rng, [("positive", 0.10), ("neutral", 0.45), ("negative", 0.38), ("churn", 0.07)] if unhappy
                      else [("positive", 0.35), ("neutral", 0.55), ("negative", 0.10), ("churn", 0.0)])
     if arch == "drifting" and recent and rng.random() < 0.05:
@@ -227,6 +247,7 @@ def _make_ticket(rng, tid, client_id, a, month, use_case, category, arch, recent
         "escalated": escalated,
         "reopened": reopened,
         "csat": csat,
+        "handle_hours": round(handle, 2),
         "text": rng.choice(TEXT[tone]),
     }
 

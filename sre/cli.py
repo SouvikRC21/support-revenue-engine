@@ -28,6 +28,7 @@ def run(cfg):
         actions.extend(playbook.expansion_actions(s, res))
     actions.sort(key=lambda x: (x["type"] != "churn", x["start_within_days"], -x["value_usd"]))
     summary = revenue.rollup(cfg, scored)
+    summary["glide"] = revenue.glide_path(cfg, scored)
     return tickets, scored, actions, summary
 
 
@@ -83,6 +84,12 @@ def main():
     print(f"Support cost           ${t['support_cost']:,}")
     print(f"Revenue influenced     ${t['revenue_influenced']:,}  -> {t['multiplier']}x support cost")
     print(f"Programme cost         ${t['program_cost']:,}  -> {t['program_roi']}x return")
+    gl = summary["glide"]
+    print(f"Day-90 minimum gain    ${gl['day90_minimum']:,}")
+    print(f"Year-1 glide path      floor ${gl['year1_floor']:,} / expected ${gl['year1_expected']:,}")
+    for q in gl["quarters"]:
+        print(f"  Q{q['quarter']}  floor ${q['total_floor']:>9,}  expected ${q['total_expected']:>9,}  "
+              f"AHT {q['aht_hours']}h  esc/100 {q['escalations_per_100']}  complaints/mo {q['complaints_per_month']}")
     print(f"Actions queued         {len(actions)}")
     print(f"Band check vs labels   {evaluate(scored)}")
 

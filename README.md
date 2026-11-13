@@ -6,7 +6,7 @@ It is built around a 100-engineer product support organisation serving two B2B c
 
 ## What it shows
 
-At the default assumptions the model scores 100 accounts carrying $45M of ARR. It finds $8.1M of expected ARR at risk (17 red and 16 amber accounts), $2.5M of it saveable at a 35% save rate, and $2.8M of expansion pipeline. Revenue influenced comes to $3.3M a year, which is 1.1x the $3.0M cost of the whole support org and 13.7x the $240K cost of the six-person revenue pod that runs the process. Every one of those numbers comes from `config/assumptions.json` and changes when you change it.
+At the default assumptions the model scores 100 accounts carrying $45M of ARR. It finds $8.1M of expected ARR at risk (17 red and 16 amber accounts), $2.5M of it saveable at a 35% save rate, and $2.8M of expansion pipeline. Revenue influenced comes to $3.3M a year, which is 1.1x the $3.0M cost of the whole support org and 13.7x the $240K cost of the six-person revenue pod that runs the process. Every one of those numbers comes from `config/assumptions.json` from the daily operations we run and changes when you change it.
 
 ## Signals
 
